@@ -295,8 +295,8 @@ ATT = {}
 
 ATT.PrintName = "Unertl USMC Sniper Scope 10x"
 ATT.CompactName = "UNERTL 10x"
-ATT.Icon = Material("entities/acwatt_bocw.png", "mips smooth")
-ATT.Description = [[ ]]
+ATT.Icon = Material("entities/bocw_atts/optics/pellington.png", "mips smooth")
+ATT.Description = [[Scope taken off the Pellington 703. ]]
 ATT.SortOrder = 8
 
 ATT.Model = "models/weapons/arc9/atts/pellington_scope.mdl"
@@ -336,10 +336,10 @@ ATT.ScopeScreenRatio = 0.7
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
-ATT.SwayAdd = 0.075
-ATT.FreeAimRadiusMultSights = 0.1
-ATT.AimDownSightsTimeAdd = 0
-ATT.SprintToFireTimeAdd = 0.08
+--ATT.SwayAdd = 0.075
+--ATT.FreeAimRadiusMultSights = 0.1
+--ATT.AimDownSightsTimeAdd = 0
+--ATT.SprintToFireTimeAdd = 0.08
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
