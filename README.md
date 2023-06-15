@@ -33,8 +33,8 @@ Notice! Pistols will be released soon to the workshop. This(Attachments), Shared
 - Royal & Kross 4x
 - SUSAT Multizoom 2-4x
 - Hangman RF 6x
-- Pellington 703 Scope 8x
-- Vulture Custom Zoom 1-10x
+- Vulture Custom Zoom 1-10x (Unertl USMC)
+- Pellington 703 Scope 10x
 - Ultrazoom Custom 2-20x
 - AN/PVS-4 Thermal 2.3x
 - Noch Sova Thermal 2.3x (PN58) [not usable at the moment]
