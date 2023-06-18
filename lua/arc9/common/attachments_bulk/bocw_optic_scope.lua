@@ -13,7 +13,7 @@ ATT.SortOrder = 2.3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_anpvs4thermal.mdl"
 
-ATT.Category = "optic_picatinny"
+ATT.Category = {"optic_picatinny"}
 ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
@@ -92,8 +92,8 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_axialarms3x.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -140,8 +140,8 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_hangmanrf.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -301,7 +301,7 @@ ATT.SortOrder = 8
 
 ATT.Model = "models/weapons/arc9/atts/pellington_scope.mdl"
 
-ATT.Category = "optic_picatinny"
+ATT.Category = {"optic_picatinny"}
 ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
@@ -358,8 +358,8 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_royalkross4x.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -407,8 +407,8 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_susatmultizoom.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -459,8 +459,8 @@ ATT.SortOrder = 20
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_ultrazoom.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -505,8 +505,8 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_visiontech2x.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
@@ -554,8 +554,8 @@ ATT.SortOrder = 10
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_vulturecz.mdl"
 
-ATT.Category = "optic_picatinny"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
 
 ATT.Sights = {
     {
