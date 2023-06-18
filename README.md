@@ -7,7 +7,7 @@ There are two use cases for this pack:
 1. You use the cold war weapons and want to have attachments to further customize the weapons.
 2. You don't use the cold war weapons but would like to have access to some of its attachments like scopes.
 
-Notice! Pistols will be released soon to the workshop. This(Attachments), Shared Content, and Camo Packs will also be released simultaneously. Until then you have to clone this repository in order to not have missing content.
+# [ARC9 BOCW Attachments on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2990082109)
 
 ## Attachments:
 
