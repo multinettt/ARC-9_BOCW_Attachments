@@ -16,6 +16,10 @@ ATT.ReloadTimeMult = 1.1
 ATT.RangeMaxMult = 0.65
 ATT.RPMMult = 0.95
 
+ATT.ExplosionDamage = 10
+ATT.ExplosionRadius = 100
+ATT.ExplosionEffect = "env_fire_small"
+
 ATT.ActivateElements = {"shotgun_dragon"}
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
