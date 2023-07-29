@@ -216,7 +216,7 @@ ATT = {}
 
 ATT.PrintName = "Noch Sova Thermal 2.3x"
 ATT.CompactName = "PN58"
-ATT.Icon = Material("entities/bocw_atts/optics/anpvs4.png", "mips smooth")
+ATT.Icon = Material("entities/bocw_atts/optics/nochsova.png", "mips smooth")
 ATT.Description = [[Soviet thermal scope with 2.3x magnification improves visibility by highlighting enemy heat signatures.
 
 The Noch Sova Thermal is a Optic Attachment available in Call of Duty: Black Ops Cold War and Call of Duty: Warzone. It is a Warsaw Pact related Thermal Sight with a 2.3x zoom magnification available for Assault Rifles, Tactical Rifles, and Light Machine Guns. The NATO equivalent is the AN/PVS-4 Thermal.]]
@@ -225,12 +225,11 @@ ATT.SortOrder = 2.3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_nochsovathermal.mdl"
 
-ATT.Category = "optic_ak47"
-ATT.Folder = "BOCW SCOPE" -- test
+ATT.Category = "bocw_ak47_opticmount"
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.05, -1.37),
+        Pos = Vector(0, 5.7, -1.728),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
         ViewModelFOV = 60
@@ -246,7 +245,7 @@ ATT.Sights = {
 ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 7.7
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_nochsova.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.2
@@ -284,7 +283,7 @@ ATT.RTScopeFLIRCCCold = {
 
 ATT.ScopeScreenRatio = 0.7
 
-ATT.ModelOffset = Vector(0, 0, 0.087)
+ATT.ModelOffset = Vector(1.5, 1.08, 1.85)
 ATT.Scale = 1
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
