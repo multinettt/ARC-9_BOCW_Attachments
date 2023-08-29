@@ -2,6 +2,56 @@ local ATT = {} --ANPVS:5 AXARM:84 HNGMN:133 NSOVA:217 UNRTL:296 RO&KR:350 SUSAT:
 
 ATT = {}
 
+ATT.PrintName = "Visiontech 2x"
+ATT.CompactName = "VSNTCH 2x"
+ATT.Icon = Material("entities/bocw_atts/optics/visiontech.png", "mips smooth")
+ATT.Description = [[American-made combat optic featuring a 2.0x telescopic lens. Long eye relief and exceptional optical clarity improves hit probability at mid-ranges.
+
+The Visiontech 2x is a telescopic sight featured in Call of Duty: Black Ops Cold War. It features the lowest zoom level (2x) of all telescopic optics.]]
+
+ATT.SortOrder = 2
+
+ATT.Model = "models/weapons/arc9/atts/bocw_scope_visiontech2x.mdl"
+
+ATT.Category = {"optic_picatinny"}
+ATT.Folder = "BOCW SCOPE"
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 4, -1.32),
+        Ang = Angle(0, 0, 0),
+        Magnification = 2,
+        ViewModelFOV = 75
+    },
+    {
+        Pos = Vector(0, 5, -2.14),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1,
+        Disassociate = true,
+        ViewModelFOV = 75
+    },
+}
+
+ATT.RTScopeAdjustable = false
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 8
+ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_visiontech2x.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.2
+ATT.RTScopeColorable = true
+ATT.RTScopeShadowIntensity = 10
+
+ATT.ScopeScreenRatio = 0.8
+
+ATT.ModelOffset = Vector(-0.5, 0, 0.18)
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_optic_visiontech2x")
+
+ATT = {}
+
 ATT.PrintName = "AN/PVS-4 Thermal 2.3x"
 ATT.CompactName = "AN/PVS-4"
 ATT.Icon = Material("entities/bocw_atts/optics/anpvs4.png", "mips smooth")
@@ -417,9 +467,10 @@ ATT.Sights = {
         ViewModelFOV = 75,
     },
     {
-        Pos = Vector(0, 3.2, -2.7),
+        Pos = Vector(0, 4, -2.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
+        Disassociate = true,
         ViewModelFOV = 75,
     },
 }
@@ -490,55 +541,6 @@ ATT.ModelOffset = Vector(-1.3, 0, 0)
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_optic_ultrazoomcustom")
-
-ATT = {}
-
-ATT.PrintName = "Visiontech 2x"
-ATT.CompactName = "VSNTCH 2x"
-ATT.Icon = Material("entities/bocw_atts/optics/visiontech.png", "mips smooth")
-ATT.Description = [[American-made combat optic featuring a 2.0x telescopic lens. Long eye relief and exceptional optical clarity improves hit probability at mid-ranges.
-
-The Visiontech 2x is a telescopic sight featured in Call of Duty: Black Ops Cold War. It features the lowest zoom level (2x) of all telescopic optics.]]
-
-ATT.SortOrder = 2
-
-ATT.Model = "models/weapons/arc9/atts/bocw_scope_visiontech2x.mdl"
-
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW SCOPE"
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 4, -1.32),
-        Ang = Angle(0, 0, 0),
-        Magnification = 2,
-        ViewModelFOV = 75
-    },
-    {
-        Pos = Vector(0, 5, -2.14),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1,
-        ViewModelFOV = 75
-    },
-}
-
-ATT.RTScopeAdjustable = false
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 8
-ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_visiontech2x.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
-
-ATT.ScopeScreenRatio = 0.8
-
-ATT.ModelOffset = Vector(-0.5, 0, 0.18)
-
-ATT.MenuCategory = "ARC9 - BOCW Attachments"
-
-ARC9.LoadAttachment(ATT, "bocw_optic_visiontech2x")
 
 ATT = {}
 
