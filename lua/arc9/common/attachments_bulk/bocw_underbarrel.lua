@@ -15,8 +15,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -42,8 +42,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0.16)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.05)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -71,8 +71,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.02)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -98,8 +98,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0.16)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0.1, 0, -0.0592) -- me when nernst eşitliği
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -127,8 +127,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -157,8 +157,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
