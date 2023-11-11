@@ -145,7 +145,7 @@ ARC9.LoadAttachment(ATT, "bocw_underbarrel_west_foregrip1pro")
 ATT = {}
 
 ATT.PrintName = "SFOD Speedgrip"
-ATT.CompactName = "SFOD SPD"
+ATT.CompactName = "SFOD SPEED"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_west.png", "mips smooth")
 ATT.Description = [[Repurposed polymer pistol grip for improved sprint speed and recoil control.
 
@@ -193,10 +193,10 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2.mdl"
 
-ATT.Category = {"bocw_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -210,7 +210,7 @@ ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_foregrip")
 ATT = {}
 
 ATT.PrintName = "Infiltrator Grip"
-ATT.CompactName = "INFIL GRP"
+ATT.CompactName = "INFIL GRIP"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/speedgrip_east.png", "mips smooth")
 ATT.Description = [[Short bakelite foregrip for improved combat maneuverability.
 
@@ -220,10 +220,10 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2.mdl"
 
-ATT.Category = {"bocw_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_west"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -239,7 +239,7 @@ ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_speedgrip")
 ATT = {}
 
 ATT.PrintName = "Patrol Grip"
-ATT.CompactName = "PTRL GRP"
+ATT.CompactName = "PATROL GRIP"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrip_east.png", "mips smooth")
 ATT.Description = [[Repurposed wood pistol grip for improved sprint speed.
 
@@ -251,8 +251,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.35)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -266,7 +266,7 @@ ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_mixgrip")
 ATT = {}
 
 ATT.PrintName = "Bruiser Grip"
-ATT.CompactName = "BRSR GRP"
+ATT.CompactName = "BRUISR GRIP"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/speedgrippro_east.png", "mips smooth")
 ATT.Description = [[Short wooden foregrip for faster weapon melee combat and movement speeds.
 
@@ -274,12 +274,12 @@ The Bruiser Grip is an Underbarrel attachment available for all Primary Weapons 
 
 ATT.SortOrder = 4
 
-ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1pro.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.1)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -305,10 +305,10 @@ ATT.SortOrder = 5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -325,7 +325,7 @@ ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_foregrippro")
 ATT = {}
 
 ATT.PrintName = "Spetsnaz Speedgrip"
-ATT.CompactName = "SPTZ SPD"
+ATT.CompactName = "SPTSNZ SPD"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_east.png", "mips smooth")
 ATT.Description = [[Ergonomic wooden grip for improved sprint speed and recoil control.
 
@@ -335,10 +335,10 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.2)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
