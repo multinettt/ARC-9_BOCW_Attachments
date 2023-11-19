@@ -452,7 +452,7 @@ ATT = {}
 
 ATT.PrintName = "Steady Aim Laser"
 ATT.CompactName = "STEADY AIM"
-ATT.Icon = Material("entities/bocw_atts/bodies/laser_china.png", "mips smooth")
+ATT.Icon = Material("entities/bocw_atts/bodies/laser_east.png", "mips smooth")
 ATT.Description = [[Dust-proof diode laser improves hipfire accuracy.
 The Steady Aim Laser is a Body attachment available for all Primary Weapons, Pistols, and Shotguns in Call of Duty: Black Ops Cold War. It acts similar to the Laser Sight attachment from prior games, improving hip fire accuracy.]]
 
@@ -462,9 +462,9 @@ ATT.CustomPros = {
     ["When switched on: Spread in Hipfire"] = "+20%",
 }
 
-ATT.Model = "models/weapons/arc9/atts/bocw_body_laserchina.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_body_lasereast.mdl"
 
-ATT.Category = {"bocw_qbz83_body"}
+ATT.Category = {"bocw_ak47_body"}
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -491,7 +491,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_qbz83_body_laser1")
+ARC9.LoadAttachment(ATT, "bocw_ak47_body_laser1")
 
 ATT = {}
 
@@ -507,7 +507,7 @@ ATT.Model = "models/weapons/arc9/atts/bocw_body_flashlighteast.mdl"
 
 ATT.Scale = 1
 
-ATT.Category = {"bocw_ak47_body_flash"}
+ATT.Category = {"bocw_east_body"}
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -548,7 +548,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_body_mixbodychina.mdl"
 
-ATT.Category = {"bocw_qbz83_body"}
+ATT.Category = {"bocw_ak47_body_mix"}
 
 ATT.Laser = true
 ATT.LaserStrength = 4
@@ -563,18 +563,18 @@ ATT.FlashlightDistance = 1024
 ATT.FlashlightFOV = 70
 ATT.FlashlightAttachment = 2
 
-ATT.ModelOffset = Vector(-0.2, 0, 0)
+ATT.ModelOffset = Vector(0.35, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_qbz83_body_mixbody1")
+ARC9.LoadAttachment(ATT, "bocw_ak47_body_mixbody1")
 
 ATT = {}
 
 ATT.PrintName = "SWAT 5mw Laser Sight"
 ATT.CompactName = "SWAT LAZ"
-ATT.Icon = Material("entities/bocw_atts/bodies/laserpro_china.png", "mips smooth")
+ATT.Icon = Material("entities/bocw_atts/bodies/laserpro_east.png", "mips smooth")
 ATT.Description = [[IR laser maximizes hipfire accuracy to quickly resolve threats while on the move.
 The SWAT 5mw Laser Sight is a Body attachment available for all NATO Primary Weapons, Pistols and Shotguns in Call of Duty: Black Ops Cold War. It gives a strong increase to hipfire accuracy but at the cost of a slower aiming speed. The Warsaw Pact equivalent is the GRU 5mw Laser Sight.]]
 
@@ -584,9 +584,9 @@ ATT.CustomPros = {
     ["When switched on: Spread in Hipfire"] = "+40%",
 }
 
-ATT.Model = "models/weapons/arc9/atts/bocw_body_laserprochina.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_body_laserproeast.mdl"
 
-ATT.Category = {"bocw_qbz83_body"}
+ATT.Category = {"bocw_ak47_body"}
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -628,7 +628,7 @@ ATT.AimDownSightsTimeMult = 1.08
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_qbz83_body_laserpro")
+ARC9.LoadAttachment(ATT, "bocw_ak47_body_laserpro")
 
 ATT = {}
 
@@ -644,7 +644,7 @@ ATT.Model = "models/weapons/arc9/atts/bocw_body_flashlightproeast.mdl"
 
 ATT.Scale = 1
 
-ATT.Category = {"bocw_ak47_body_flash"}
+ATT.Category = {"bocw_east_body"}
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -691,7 +691,7 @@ ATT.CustomPros = {
 
 ATT.Model = "models/weapons/arc9/atts/bocw_body_mixbodyprochina.mdl"
 
-ATT.Category = {"bocw_qbz83_body"}
+ATT.Category = {"bocw_ak47_body_mix"}
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -734,9 +734,9 @@ ATT.ToggleStats = {
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1
 
-ATT.ModelOffset = Vector(-0.03, 0, 0)
+ATT.ModelOffset = Vector(-0.5, -0.15, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_qbz83_body_mixbodypro")
+ARC9.LoadAttachment(ATT, "bocw_ak47_body_mixbodypro")
