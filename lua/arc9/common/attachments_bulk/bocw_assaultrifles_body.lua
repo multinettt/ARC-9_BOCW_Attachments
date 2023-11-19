@@ -538,11 +538,11 @@ ARC9.LoadAttachment(ATT, "bocw_ak47_body_flashlight1")
 
 ATT = {}
 
-ATT.PrintName = "SOF Target Designator" -- TODO: Make this actually do what it says
-ATT.CompactName = "SOF TGT"
+ATT.PrintName = "KGB Target Designator" -- TODO: Make this actually do what it says
+ATT.CompactName = "KGB TGT"
 ATT.Icon = Material("entities/bocw_atts/bodies/mixbody_china.png", "mips smooth")
 ATT.Description = [[Durable precision flashlight reveals enemy data at longer engagement distances. Must be activated by aiming down the sight.
-The SOF Target Designator is a Body attachment available for all NATO related Primary Weapons, Pistols and Shotguns in Call of Duty: Black Ops Cold War. It increases the range which enemies are shown as hostiles at a much greater range than the Mounted Flashlight but is only active while aiming.]]
+The KGB Target Designator is a Body attachment available for all Warsaw Pact Primary Weapons in Call of Duty: Black Ops Cold War. It increases the range which enemies are shown as hostiles at a much greater range than the Mounted Flashlight but is only active while aiming. The NATO equivalent is the SOF Target Designator.]]
 
 ATT.SortOrder = 3
 
@@ -572,11 +572,11 @@ ARC9.LoadAttachment(ATT, "bocw_ak47_body_mixbody1")
 
 ATT = {}
 
-ATT.PrintName = "SWAT 5mw Laser Sight"
-ATT.CompactName = "SWAT LAZ"
+ATT.PrintName = "GRU 5mw Laser Sight"
+ATT.CompactName = "GRU LAZ"
 ATT.Icon = Material("entities/bocw_atts/bodies/laserpro_east.png", "mips smooth")
 ATT.Description = [[IR laser maximizes hipfire accuracy to quickly resolve threats while on the move.
-The SWAT 5mw Laser Sight is a Body attachment available for all NATO Primary Weapons, Pistols and Shotguns in Call of Duty: Black Ops Cold War. It gives a strong increase to hipfire accuracy but at the cost of a slower aiming speed. The Warsaw Pact equivalent is the GRU 5mw Laser Sight.]]
+The GRU 5mw Laser Sight is a Body attachment available for all Warsaw Pact related Primary Weapons in Call of Duty: Black Ops Cold War. It gives a strong increase to hipfire accuracy but at the cost of a slower aiming speed. The NATO equivalent is the SWAT 5mw Laser Sight.]]
 
 ATT.SortOrder = 4
 
