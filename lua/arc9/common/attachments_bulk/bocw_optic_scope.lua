@@ -275,7 +275,7 @@ ATT.SortOrder = 2.3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_nochsovathermal.mdl"
 
-ATT.Category = "bocw_ak47_opticmount"
+ATT.Category = {"bocw_ak47_opticmount", "bocw_nochsova_optic"}
 
 ATT.Sights = {
     {

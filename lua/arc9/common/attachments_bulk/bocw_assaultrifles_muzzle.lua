@@ -57,6 +57,34 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator2")
 
 ATT = {}
 
+ATT.PrintName = "Muzzle Brake 77.62"
+ATT.CompactName = "MZLBRK 762"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensator556c.png", "mips smooth")
+ATT.Description = [[Reverse venting redirects gases to the sides to reduce muzzle rise.
+
+The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachment available for Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols. It increases control over vertical recoil.]]
+
+ATT.SortOrder = -6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensator_china.mdl"
+
+ATT.Category = {"bocw_groza_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_4"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator4")
+
+ATT = {}
+
 ATT.PrintName = "Muzzle Brake 5.56"
 ATT.CompactName = "MZLBRK 556"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensator556c.png", "mips smooth")
@@ -125,7 +153,7 @@ ATT.SortOrder = -3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensatorpro_china.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -208,7 +236,7 @@ ATT.SortOrder = -5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -291,7 +319,7 @@ ATT.SortOrder = -3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -385,7 +413,7 @@ ATT.SortOrder = -4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -482,7 +510,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
