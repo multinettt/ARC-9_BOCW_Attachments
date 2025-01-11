@@ -57,7 +57,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator2")
 
 ATT = {}
 
-ATT.PrintName = "Muzzle Brake 77.62"
+ATT.PrintName = "Muzzle Brake 7.62"
 ATT.CompactName = "MZLBRK 762"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensator556c.png", "mips smooth")
 ATT.Description = [[Reverse venting redirects gases to the sides to reduce muzzle rise.
@@ -68,7 +68,7 @@ ATT.SortOrder = -6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensator_china.mdl"
 
-ATT.Category = {"bocw_groza_muzzle"}
+ATT.Category = {"bocw_groza_muzzle", "bocw_fara83_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
