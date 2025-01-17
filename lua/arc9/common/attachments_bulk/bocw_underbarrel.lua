@@ -42,8 +42,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1.mdl"
 
 ATT.Category = {"bocw_underbarrel_west"}
 
-ATT.ModelOffset = Vector(0, 0, -0.05)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.14)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -195,8 +195,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, -0.22)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -222,8 +222,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.14)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -251,8 +251,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, -0.35)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -278,8 +278,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, -0.1)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.14)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -307,8 +307,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, -0.22)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.91)
+ATT.ModelAngleOffset = Angle(-2.6, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
@@ -337,8 +337,8 @@ ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2pro.mdl"
 
 ATT.Category = {"bocw_underbarrel_east"}
 
-ATT.ModelOffset = Vector(0, 0, -0.2)
-ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.LHIK = true
 ATT.LHIK_Priority = 5
