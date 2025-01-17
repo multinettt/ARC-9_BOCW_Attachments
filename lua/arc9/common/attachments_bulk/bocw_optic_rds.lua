@@ -14,7 +14,7 @@ ATT.SortOrder = 1.25
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_quickdotled.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny", "optic_picatinny_pistol"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -53,7 +53,7 @@ ATT.SortOrder = 1.25
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_microflexled.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny", "optic_picatinny_pistol"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -92,7 +92,7 @@ ATT.SortOrder = 1.37
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_oterominireflex.mdl"
 
 ATT.Category = {"optic_picatinny", "optic_picatinny_pistol"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -131,7 +131,7 @@ ATT.SortOrder = 1.37
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_millstopreflex.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -170,7 +170,7 @@ ATT.SortOrder = 1.37
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_hawksmoor.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -209,7 +209,7 @@ ATT.SortOrder = 1.37
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_diamondbackreflex.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -248,7 +248,7 @@ ATT.SortOrder = 1.37
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_fastpointreflex.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -287,7 +287,7 @@ ATT.SortOrder = 1.5
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_snappoint.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -326,7 +326,7 @@ ATT.SortOrder = 1.75
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_kobrareddot.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
@@ -365,7 +365,7 @@ ATT.SortOrder = 1.75
 ATT.Model = "models/weapons/arc9/atts/bocw_optic_sillixholoscout.mdl"
 
 ATT.Category = {"optic_picatinny_medium", "optic_picatinny"}
-ATT.Folder = "BOCW RDS"
+ATT.Folder = "BOCW"
 
 ATT.Sights = {
     {
