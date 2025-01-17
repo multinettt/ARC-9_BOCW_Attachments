@@ -85,6 +85,33 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator2")
 
 ATT = {}
 
+ATT.PrintName = "Muzzle Brake 5.45"
+ATT.CompactName = "MZLBRK 545"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensator762e.png", "mips smooth")
+ATT.Description = [[Redirects gases upwards and to the sides to reduce muzzle rise.
+
+The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachment available for Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols. It increases control over vertical recoil.]]
+
+ATT.SortOrder = -6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
+
+ATT.Category = {"bocw_east_muzzle_545"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator545")
+
+ATT = {}
+
 ATT.PrintName = "Muzzle Brake 7.62"
 ATT.CompactName = "MZLBRK 762"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensator556c.png", "mips smooth")
@@ -169,7 +196,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator280")
 
 ATT = {}
 
-ATT.PrintName = "Infantry Compensator 5.56"
+ATT.PrintName = "Infantry Compensator"
 ATT.CompactName = "INFCMP 556"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensatorpro556w.png", "mips smooth")
 ATT.Description = [[In-line vent holes expel gasses upward to reduce muzzle climb.
@@ -198,7 +225,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensatorpro1")
 
 ATT = {}
 
-ATT.PrintName = "Infantry Compensator 7.62"
+ATT.PrintName = "Infantry Compensator"
 ATT.CompactName = "INFCMP 762"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensatorpro556w.png", "mips smooth")
 ATT.Description = [[In-line vent holes expel gasses upward to reduce muzzle climb.
@@ -227,7 +254,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensatorpro10")
 
 ATT = {}
 
-ATT.PrintName = "Spetsnaz Compensator 7.62"
+ATT.PrintName = "Spetsnaz Compensator"
 ATT.CompactName = "INFCMP 762"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensatorpro556c.png", "mips smooth")
 ATT.Description = [[Cone shaped muzzle brake vents gases through top ports to reduce muzzle rise.
@@ -252,6 +279,35 @@ ATT.RecoilSideMult = 1.07
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensatorpro2")
+
+ATT = {}
+
+ATT.PrintName = "Infantry Compensator"
+ATT.CompactName = "INFCMP"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensatorpro762e.png", "mips smooth")
+ATT.Description = [[In-line vent holes expel gasses upward to reduce muzzle climb.
+
+The Infantry Compensator is a Muzzle attachment available for NATO related Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols in Call of Duty: Black Ops Cold War. It increases control over vertical recoil at the cost of some horizontal recoil. The Warsaw Pact equivalent is the Spetsnaz Compensator.]]
+
+ATT.SortOrder = -3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensatorpro_east.mdl"
+
+ATT.Category = {"bocw_east_muzzle_545"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_6"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.88
+ATT.RecoilSideMult = 1.08
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensatorpro545")
 
 ATT = {}
 
@@ -359,6 +415,32 @@ ATT.MuzzleDevice = true
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_flashhider2")
+
+ATT = {}
+
+ATT.PrintName = "Flash Guard 5.45"
+ATT.CompactName = "FLSGRD 545"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhider762e.png", "mips smooth")
+ATT.Description = [[Reduces muzzle flash signature to improve sight picture and position concealment.
+
+The Flash Guard returns in Call of Duty: Black Ops Cold War as a Muzzle attachment set available for all Primary Weapons and handguns, excluding the sniper rifles and shotguns. For sniper rifles, they have the Flash Hider, and shotguns can use the Flash Cone. These two attachments are identical to the Flash Guard.]]
+
+ATT.SortOrder = -5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
+
+ATT.Category = {"bocw_east_muzzle_545"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_flashhider545")
 
 ATT = {}
 
@@ -476,8 +558,8 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_flashhiderpro164")
 
 ATT = {}
 
-ATT.PrintName = "KGB Eliminator 7.62"
-ATT.CompactName = "KGBELI 762"
+ATT.PrintName = "KGB Eliminator"
+ATT.CompactName = "KGBELI"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro762e.png", "mips smooth")
 ATT.Description = [[Muzzle device reduces muzzle flash and vents gasses to the sides to reduce muzzle rise.
 
@@ -487,7 +569,7 @@ ATT.SortOrder = -3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle", "bocw_east_muzzle_545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -507,7 +589,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_flashhiderpro2")
 
 ATT = {}
 
-ATT.PrintName = "SOCOM Eliminator 5.56"
+ATT.PrintName = "SOCOM Eliminator"
 ATT.CompactName = "SCMELI 556"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro556c.png", "mips smooth")
 ATT.Description = [[Reduces muzzle flash and vents gasses to the sides to reduce muzzle rise.
@@ -612,7 +694,7 @@ ATT.SortOrder = -4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle", "bocw_east_muzzle_545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -709,7 +791,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle"}
+ATT.Category = {"bocw_ak47_muzzle", "bocw_east_muzzle", "bocw_east_muzzle_545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
