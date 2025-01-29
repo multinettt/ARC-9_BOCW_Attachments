@@ -22,7 +22,8 @@ ATT.MuzzleParticleOverride = "muzzleflash_shotgun"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
-ATT.SpreadSideMult = 1.5
+ATT.SpreadMultHipFire = 1.5
+ATT.DispersionSpreadMultHipFire = 1.2
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
@@ -50,7 +51,7 @@ ATT.MuzzleParticleOverride = "muzzleflash_shotgun"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
-ATT.SpreadSightsMult = 0.3
+ATT.SpreadMultSights = 0.3
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
@@ -77,8 +78,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
-
-ATT.RecoilUpMult = 0.96
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
@@ -107,7 +106,7 @@ ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
 ATT.SpeedMultShooting = 0.85
-ATT.SprintToFireTimeMult = 0.8
+ATT.SprintToFireTimeMult = 1.2
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
@@ -199,9 +198,9 @@ ATT.MuzzleDevice = true
 ATT.Silencer = true
 
 ATT.ShootVolumeMult = 0.8
-ATT.SpreadSightsMult = 0.45
+ATT.SpreadMultSights = 0.45
 
-ATT.SprintToFireTimeMult = 0.85
+ATT.SprintToFireTimeMult = 1.15
 ATT.RangeMaxMult = 0.83
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
@@ -232,9 +231,9 @@ ATT.MuzzleDevice = true
 ATT.Silencer = true
 
 ATT.ShootVolumeMult = 0.8
-ATT.SpreadSightsMult = 0.45
+ATT.SpreadMultSights = 0.45
 
-ATT.SprintToFireTimeMult = 0.85
+ATT.SprintToFireTimeMult = 1.15
 ATT.RangeMaxMult = 0.83
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
