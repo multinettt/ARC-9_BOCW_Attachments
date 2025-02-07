@@ -13,7 +13,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_compensator.mdl"
 
-ATT.Category = {"bocw_shotgun_muzzle"}
+ATT.Category = {"bocw_shotgun_muzzle", "bocw_410ironhide_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0.02)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -42,7 +42,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_compensatorpro.mdl"
 
-ATT.Category = {"bocw_shotgun_muzzle"}
+ATT.Category = {"bocw_shotgun_muzzle", "bocw_410ironhide_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -83,6 +83,32 @@ ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_flashhider")
 
+ATT = {} --// FLASH HIDERS
+
+ATT.PrintName = "Flash Cone .410 GA"
+ATT.CompactName = "FLASH CONE"
+ATT.Icon = Material("entities/bocw_atts/muzzles/shotgun_flashcone12.png", "mips smooth")
+ATT.Description = [[Flash hider reduces muzzle flash to preserve vision and conceal position.
+
+The Flash Cone is a Muzzle attachment set available for all Shotguns in Call of Duty: Black Ops Cold War. It decreases the size of the muzzle flash to increase concealment whilst in Zombies, it increases the drop rate of Equipment.]]
+
+ATT.SortOrder = 2
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_flashhider.mdl"
+
+ATT.Category = {"bocw_410ironhide_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_flashhider410")
+
 ATT = {}
 
 ATT.PrintName = "SOCOM Blast Mitigator"
@@ -96,7 +122,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_flashhiderpro.mdl"
 
-ATT.Category = {"bocw_shotgun_muzzle"}
+ATT.Category = {"bocw_shotgun_muzzle", "bocw_410ironhide_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -176,6 +202,37 @@ ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_suppressor_gallosa12")
 
 ATT = {}
 
+ATT.PrintName = "Sound Suppressor"
+ATT.CompactName = "SOUND SUPP"
+ATT.Icon = Material("entities/bocw_atts/muzzles/shotgun_suppressor12.png", "mips smooth")
+ATT.Description = [[Lightweight suppressor eliminates flash and sound from muzzle blast.
+
+The Silencer, Suppressor, and Sound Suppressor all return in Call of Duty: Black Ops Cold War. With Assault Rifles and Light Machine Guns getting Suppressors, Tactical Rifles getting Silencers and Sound Suppressors being given to Submachine Guns, Pistols and Shotguns. All give the same upside of total muzzle flash and sound concealment however, each one has differing downsides, with Silencers having reduced bullet velocity, Sound Suppressors having reduced range, whilst Suppressors have both of the downsides.]]
+
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_suppressor_410.mdl"
+
+ATT.Category = {"bocw_410ironhide_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.ShootVolumeMult = 0.8
+
+ATT.RangeMaxMult = 0.87
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_suppressor_410ironhide")
+
+ATT = {}
+
 ATT.PrintName = "Agency Choke"
 ATT.CompactName = "AGNCY CHK"
 ATT.Icon = Material("entities/bocw_atts/muzzles/shotgun_suppressorpro12.png", "mips smooth")
@@ -239,3 +296,36 @@ ATT.RangeMaxMult = 0.83
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_suppressorpro_gallosa12")
+
+ATT = {}
+
+ATT.PrintName = "Agency Choke"
+ATT.CompactName = "AGNCY CHK"
+ATT.Icon = Material("entities/bocw_atts/muzzles/shotgun_suppressorpro12.png", "mips smooth")
+ATT.Description = [[Conceals position by eliminating flash and reducing acoustics. Tighter pellet spread when aiming down sights.
+
+The Agency Choke is a Muzzle attachment available for all Shotguns in Call of Duty: Black Ops Cold War. It eliminates muzzle flash and decreases pellet spread for both hip fire and aiming to increase accuracy but at the cost of a lowered damage range and higher delay between sprinting and firing.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_12_suppressorpro_410.mdl"
+
+ATT.Category = {"bocw_410ironhide_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.ShootVolumeMult = 0.8
+ATT.SpreadMultSights = 0.45
+
+ATT.SprintToFireTimeMult = 1.15
+ATT.RangeMaxMult = 0.83
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_shotguns_muzzle_suppressorpro_410ironhide")
