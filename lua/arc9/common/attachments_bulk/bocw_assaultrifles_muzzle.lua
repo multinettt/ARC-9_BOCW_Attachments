@@ -114,6 +114,33 @@ ATT = {}
 
 ATT.PrintName = "Muzzle Brake 7.62"
 ATT.CompactName = "MZLBRK 762"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensator762e.png", "mips smooth")
+ATT.Description = [[Redirects gases upwards and to the sides to reduce muzzle rise.
+
+The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachment available for Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols. It increases control over vertical recoil.]]
+
+ATT.SortOrder = -6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
+
+ATT.Category = {"bocw_east_muzzle_762"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_compensator762")
+
+ATT = {}
+
+ATT.PrintName = "Muzzle Brake 7.62"
+ATT.CompactName = "MZLBRK 762"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensator556c.png", "mips smooth")
 ATT.Description = [[Reverse venting redirects gases to the sides to reduce muzzle rise.
 
