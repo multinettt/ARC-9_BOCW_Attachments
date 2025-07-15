@@ -13,7 +13,7 @@ ATT.SortOrder = -6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensator_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -234,7 +234,7 @@ ATT.SortOrder = -3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensatorpro_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_em2_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_em2_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -378,7 +378,7 @@ ATT.SortOrder = -5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_flashhider_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -523,7 +523,7 @@ ARC9.LoadAttachment(ATT, "bocw_assaultrifles_muzzle_flashhider100")
 
 ATT = {}
 
-ATT.PrintName = "SOCOM Eliminator 5.56"
+ATT.PrintName = "SOCOM Eliminator"
 ATT.CompactName = "SCMELI 556"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro556w.png", "mips smooth")
 ATT.Description = [[Reduces muzzle flash and vents gasses to the sides to reduce muzzle rise.
@@ -534,7 +534,7 @@ ATT.SortOrder = -3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_flashhiderpro_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -689,7 +689,7 @@ ATT.SortOrder = -4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_suppressor_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_c58_muzzle", "bocw_em2_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_c58_muzzle", "bocw_em2_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -785,7 +785,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_suppressorpro_west.mdl"
 
-ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_c58_muzzle", "bocw_em2_muzzle"}
+ATT.Category = {"bocw_xm4_muzzle", "bocw_krig6_muzzle", "bocw_ffar1_muzzle", "bocw_c58_muzzle", "bocw_em2_muzzle", "bocw_west_muzzle_556"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)

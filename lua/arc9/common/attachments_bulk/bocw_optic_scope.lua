@@ -13,8 +13,8 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_visiontech2x.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
@@ -26,7 +26,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 5, -2.14),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
+        Magnification = 1.4,
         Disassociate = true,
         ViewModelFOV = 75
     },
@@ -63,15 +63,15 @@ ATT.SortOrder = 2.3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_anpvs4thermal.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.05, -1.37),
+        Pos = Vector(0, 5, -1.37),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
-        ViewModelFOV = 60
+        Magnification = 1.4,
+        ViewModelFOV = 70
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -142,8 +142,8 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_axialarms3x.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
@@ -190,8 +190,8 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_hangmanrf.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
@@ -350,8 +350,8 @@ ATT.SortOrder = 8
 
 ATT.Model = "models/weapons/arc9/atts/pellington_scope.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
@@ -407,15 +407,15 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_royalkross4x.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4, -1.1),
+        Pos = Vector(0, 3, -1.1),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
-        ViewModelFOV = 60
+        Magnification = 1.4,
+        ViewModelFOV = 70
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -456,20 +456,20 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_susatmultizoom.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
         Pos = Vector(0, 3.2, -1.875),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
+        Magnification = 1.4,
         ViewModelFOV = 75,
     },
     {
         Pos = Vector(0, 4, -2.7),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
+        Magnification = 1.4,
         Disassociate = true,
         ViewModelFOV = 75,
     },
@@ -509,8 +509,8 @@ ATT.SortOrder = 20
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_ultrazoom.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
@@ -555,8 +555,8 @@ ATT.SortOrder = 10
 
 ATT.Model = "models/weapons/arc9/atts/bocw_scope_vulturecz.mdl"
 
-ATT.Category = {"optic_picatinny"}
-ATT.Folder = "BOCW"
+ATT.Category = {"optic_picatinny", "bocw_optic"}
+
 
 ATT.Sights = {
     {
