@@ -389,7 +389,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
 
-ATT.Category = {"bocw_tr_underbarrel_west"}
+ATT.Category = {"bocw_tr_underbarrel_west", "bocw_carv2_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.22)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -416,7 +416,7 @@ ATT.SortOrder = 5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
 
-ATT.Category = {"bocw_tr_underbarrel_west"}
+ATT.Category = {"bocw_tr_underbarrel_west", "bocw_carv2_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.22)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
