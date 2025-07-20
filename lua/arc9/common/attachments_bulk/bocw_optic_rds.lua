@@ -18,7 +18,7 @@ ATT.Category = {"optic_picatinny", "optic_picatinny_pistol", "bocw_optic", "bocw
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.12),
+        Pos = Vector(0, 5, -1.14),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 75
@@ -26,7 +26,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -57,7 +57,7 @@ ATT.Category = {"optic_picatinny", "optic_picatinny_pistol", "bocw_optic", "bocw
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.05),
+        Pos = Vector(0, 5, -1.03),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 75
@@ -65,7 +65,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -96,7 +96,7 @@ ATT.Category = {"optic_picatinny", "optic_picatinny_pistol", "bocw_optic", "bocw
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -0.7),
+        Pos = Vector(0, 8, -0.71),
         Ang = Angle(0, 0, 0),
         Magnification = 1.37,
         ViewModelFOV = 75
@@ -104,7 +104,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -143,7 +143,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -182,7 +182,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -221,7 +221,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -260,7 +260,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -291,7 +291,7 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.125),
+        Pos = Vector(0, 5, -1.12),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
         ViewModelFOV = 75
@@ -299,7 +299,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_default.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
@@ -330,7 +330,7 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4, -2),
+        Pos = Vector(0, 4, -1.92),
         Ang = Angle(0, 0, 0),
         Magnification = 1.75,
         ViewModelFOV = 75
@@ -338,9 +338,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_reticle3.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_delta.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 1700
+ATT.HoloSightSize = 1200
 ATT.HoloSightColor = Color(255, 0, 0)
 
 ATT.ModelOffset = Vector(-2, 0, 0.005)
@@ -369,7 +369,7 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4, -1.3),
+        Pos = Vector(0, 4, -1.26),
         Ang = Angle(0, 0, 0),
         Magnification = 1.75,
         ViewModelFOV = 75
@@ -377,9 +377,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_rds_holo_reticle.png", "mips smooth")
+ATT.HoloSightReticle = Material("hud/arc9_bocw/reticles/bocw_optic_reticle_holo.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 3500
+ATT.HoloSightSize = 800
 ATT.HoloSightColor = Color(255, 0, 0)
 
 ATT.ModelOffset = Vector(-1, 0, 0.005)
