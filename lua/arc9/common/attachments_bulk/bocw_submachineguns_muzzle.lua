@@ -443,26 +443,26 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
-ATT.Scale = 1.12
+ATT.Scale = 1
 
-ATT.MuzzleParticleOverride = "muzzleflash_3"
+ATT.MuzzleParticleOverride = "muzzleflash_6"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
-ATT.RecoilUpMult = 0.9
+ATT.RecoilUpMult = 0.96
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensator_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensator_east545")
 
 ATT = {}
 
-ATT.PrintName = "Flash Guard 7.62"
-ATT.CompactName = "FLSHGRD 762"
+ATT.PrintName = "Flash Guard 5.45"
+ATT.CompactName = "FLSHGRD 545"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhider762e.png", "mips smooth")
 ATT.Description = [[Reduces muzzle flash to improve sight picture and position concealment.
 
@@ -472,7 +472,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -483,12 +483,12 @@ ATT.MuzzleDevice = true
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhider_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhider_east545")
 
 ATT = {}
 
-ATT.PrintName = "Silencer"
-ATT.CompactName = "SILENCER"
+ATT.PrintName = "Sound Suppressor"
+ATT.CompactName = "SUPPRESSOR"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressor762e.png", "mips smooth")
 ATT.Description = [[Lightweight suppressor eliminates muzzle flash and reduces acoustic intensity.
 
@@ -498,7 +498,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545", "bocw_smg_muzzle_east9"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -508,11 +508,11 @@ ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 ATT.Silencer = true
 
-ATT.PhysBulletMuzzleVelocityMult = 0.85
+ATT.RangeMinMult = 0.85
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_silencer_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_silencer_east545")
 
 ATT = {}
 
@@ -527,22 +527,22 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensatorpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545", "bocw_smg_muzzle_east9"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
-ATT.Scale = 1.15
+ATT.Scale = 1
 
 ATT.MuzzleParticleOverride = "muzzleflash_6"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
-ATT.RecoilUpMult = 0.75
-ATT.RecoilSideMult = 1.1
+ATT.RecoilUpMult = 0.88
+ATT.RecoilSideMult = 1.08
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensatorpro_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensatorpro_east545")
 
 ATT = {}
 
@@ -557,7 +557,7 @@ ATT.SortOrder = 5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -566,19 +566,19 @@ ATT.MuzzleParticleOverride = "muzzleflash_pistol"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
-ATT.RecoilUpMult = 0.83
+ATT.RecoilUpMult = 0.85
 
 ATT.SpeedMultShooting = 0.9
 ATT.RecoilSideMult = 1.1
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east545")
 
 ATT = {}
 
-ATT.PrintName = "GRU Silencer"
-ATT.CompactName = "GRU SLNCR"
+ATT.PrintName = "GRU Suppressor"
+ATT.CompactName = "GRU SUPP"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressorpro762e.png", "mips smooth")
 ATT.Description = [[Traps gas to reduce muzzle rise and maintain control. Provides flash and sound suppression.
 
@@ -588,7 +588,7 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east762"}
+ATT.Category = {"bocw_smg_muzzle_east545", "bocw_smg_muzzle_east9"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -604,4 +604,98 @@ ATT.PhysBulletMuzzleVelocityMult = 0.75
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_silencerpro_east762")
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_silencerpro_east545")
+--[[
+oooooooooooo       .o.        .oooooo..o ooooooooooooo     .ooooo.   
+`888'     `8      .888.      d8P'    `Y8 8'   888   `8    888' `Y88. 
+ 888             .8"888.     Y88bo.           888         888    888 
+ 888oooo8       .8' `888.     `"Y8888o.       888          `Vbood888 
+ 888    "      .88ooo8888.        `"Y88b      888               888' 
+ 888       o  .8'     `888.  oo     .d8P      888             .88P'  
+o888ooooood8 o88o     o8888o 8""88888P'      o888o          .oP'     
+]]
+ATT = {}
+
+ATT.PrintName = "Muzzle Brake 9"
+ATT.CompactName = "MZLBRK 9"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensator762e.png", "mips smooth")
+ATT.Description = [[Redirects gases upwards and to the sides to reduce muzzle rise.
+
+The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachment available for Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols. It increases control over vertical recoil.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
+
+ATT.Category = {"bocw_smg_muzzle_east9"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_6"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensator_east9")
+
+ATT = {}
+
+ATT.PrintName = "Flash Guard 9"
+ATT.CompactName = "FLSHGRD 9"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhider762e.png", "mips smooth")
+ATT.Description = [[Reduces muzzle flash signature to conceal position.
+
+The Flash Guard returns in Call of Duty: Black Ops Cold War as a Muzzle attachment set available for all Primary Weapons and handguns, excluding the sniper rifles and shotguns. For sniper rifles, they have the Flash Hider, and shotguns can use the Flash Cone. These two attachments are identical to the Flash Guard.]]
+
+ATT.SortOrder = 2
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
+
+ATT.Category = {"bocw_smg_muzzle_east9"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhider_east9")
+
+ATT = {}
+
+ATT.PrintName = "KGB Eliminator" -- BULLFROG
+ATT.CompactName = "ELIMINATOR"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro762e.png", "mips smooth")
+ATT.Description = [[Muzzle device reduces flash and vents gases to the sides to reduce muzzle rise.
+
+The KGB Eliminator is a Muzzle attachment available for Warsaw Pact related Assault Rifles, Submachine Guns, Tactical Rifles, and Light Machine Guns within Call of Duty: Black Ops Cold War. It increases control over vertical recoil and increases the concealment of the muzzle flash at the cost of some horizontal recoil alongside reduced shooting movement speed. The NATO equivalent is the SOCOM Eliminator.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
+
+ATT.Category = {"bocw_bullfrog_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.87
+
+ATT.SpeedMultShooting = 0.9
+ATT.RecoilSideMult = 1.15
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east9")
