@@ -487,6 +487,46 @@ ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhider_east545")
 
 ATT = {}
 
+ATT.PrintName = "Sound Suppressor" -- AK-74U
+ATT.CompactName = "SUPPRESSOR"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressor762e.png", "mips smooth")
+ATT.Description = [[Lightweight suppressor eliminates muzzle flash and reduces acoustic intensity.
+
+The Silencer, Suppressor, and Sound Suppressor all return in Call of Duty: Black Ops Cold War. With Assault Rifles and Light Machine Guns getting Suppressors, Tactical Rifles getting Silencers and Sound Suppressors being given to Submachine Guns, Pistols and Shotguns. All give the same upside of total muzzle flash and sound concealment however, each one has differing downsides, with Silencers having reduced bullet velocity, Sound Suppressors having reduced range, whilst Suppressors have both of the downsides.]]
+
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_ak74u_suppressor.mdl"
+
+ATT.DrawFunc = function(swep, model)
+
+    local elements = swep:GetElements()
+
+    if elements["bocw_ak74u_val_barrelcheck"] then
+        model:SetBodygroup(0,1)
+    end
+end
+
+ATT.Category = {"bocw_ak74u_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.RangeMinMult = 0.85
+
+ATT.ActivateElements = {"bocw_ak74u_val_suppcheck"}
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ak74u_muzzle_suppressor")
+
+ATT = {}
+
 ATT.PrintName = "Sound Suppressor"
 ATT.CompactName = "SUPPRESSOR"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressor762e.png", "mips smooth")
@@ -498,7 +538,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east545", "bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -577,6 +617,48 @@ ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east545")
 
 ATT = {}
 
+ATT.PrintName = "GRU Suppressor" -- AK-74U
+ATT.CompactName = "GRU SUPP"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressorpro762e.png", "mips smooth")
+ATT.Description = [[Traps gas to reduce muzzle rise and maintain control. Provides flash and sound suppression.
+
+The GRU Silencer is a Muzzle attachment available exclusively for the Type 63 within Call of Duty: Black Ops Cold War. It increases control over vertical recoil and gives full concealment of the muzzle flash at the cost of reduced bullet speed. The NATO equivalent is the Agency Silencer.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_ak74u_suppressor_pro.mdl"
+
+ATT.DrawFunc = function(swep, model)
+
+    local elements = swep:GetElements()
+
+    if elements["bocw_ak74u_val_barrelcheck"] then
+        model:SetBodygroup(0,1)
+    end
+end
+
+ATT.Category = {"bocw_ak74u_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.RecoilUpMult = 0.85
+
+ATT.PhysBulletMuzzleVelocityMult = 0.75
+
+ATT.ActivateElements = {"bocw_ak74u_val_suppcheck"}
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ak74u_muzzle_suppressorpro")
+
+ATT = {}
+
 ATT.PrintName = "GRU Suppressor"
 ATT.CompactName = "GRU SUPP"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_suppressorpro762e.png", "mips smooth")
@@ -588,7 +670,7 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east545", "bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
