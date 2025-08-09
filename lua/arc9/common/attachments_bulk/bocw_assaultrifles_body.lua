@@ -38,8 +38,8 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.ModelOffset = Vector(0, 0, -0.075)
-ATT.ModelAngleOffset = Angle(0, 0, 90)
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
