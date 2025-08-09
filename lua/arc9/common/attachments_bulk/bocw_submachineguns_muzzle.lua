@@ -379,7 +379,7 @@ The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachm
 
 ATT.SortOrder = 1
 
-ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensator_west.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_compensator_west.mdl"
 
 ATT.Category = {"bocw_smg_muzzle_west45"}
 
