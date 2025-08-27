@@ -7,7 +7,7 @@ oooooo   oooooo     oooo oooooooooooo  .oooooo..o ooooooooooooo
     `888.8'  `888.8'      888    "         `"Y88b      888      
      `888'    `888'       888       o oo     .d8P      888      
       `8'      `8'       o888ooooood8 8""88888P'      o888o     
-      ]]
+]]
 ATT = {}
 
 ATT.PrintName = "Foregrip"
