@@ -21,7 +21,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_compensator_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -49,7 +49,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_flashhider_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -115,9 +115,9 @@ The Silencer, Suppressor, and Sound Suppressor all return in Call of Duty: Black
 
 ATT.SortOrder = 3
 
-ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_suppressor_west.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_suppressor_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45", "bocw_milano821_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -146,7 +146,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_compensatorpro_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45", "bocw_mp5_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -328,6 +328,37 @@ ATT.ActivateElements = {"bocw_mp5_sd_suppcheck"}
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_mp5_muzzle_silencer_pro")
+
+ATT = {}
+
+ATT.PrintName = "Agency Suppressor" -- MILANO 821
+ATT.CompactName = "AGENCY SUP"
+ATT.Icon = Material("entities/bocw_atts/muzzles/smg_suppressorpro9.png", "mips smooth")
+ATT.Description = [[Traps gases to reduce muzzle rise and eliminate muzzle flash.
+
+The Agency Suppressor is a Muzzle attachment available for NATO related Assault Rifles, Submachine Guns, Light Machine Guns, and Pistols within Call of Duty: Black Ops Cold War. It increases control over vertical recoil and gives full concealment of the muzzle flash with the same downside pattern as the Suppressor series of attachments. The Warsaw Pact equivalent is the GRU Suppressor.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_suppressorpro_milano821.mdl"
+
+ATT.Category = {"bocw_milano821_muzzle"}
+
+ATT.ModelOffset = Vector(-1.27, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.RecoilUpMult = 0.93
+
+ATT.RangeMinMult = 0.75
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_milano821_muzzle_silencerpro_west")
 
 ATT = {}
 
