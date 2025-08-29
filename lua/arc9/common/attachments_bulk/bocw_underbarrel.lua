@@ -619,6 +619,34 @@ ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_ksp45_underbarrel_west_foregrip")
 
+ATT = {} -- MAC-10
+
+ATT.PrintName = "Foregrip"
+ATT.CompactName = "FOREGRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrip_west.png", "mips smooth")
+ATT.Description = [[Standard polymer foregrip for improved recoil control.
+
+The Grip returns in Call of Duty: Black Ops Cold War as the Foregrip and it is an Underbarrel attachment available for Assault Rifles, Light Machine Guns and Submachine Guns. It increases control over horizontal recoil. For the MAC-10, it also helps with controlling vertical recoil. The KSP 45 lacks the Foregrip in favor of the Front Grip.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
+
+ATT.Category = {"bocw_mac10_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilUpMult = 0.94
+ATT.RecoilSideMult = 0.88
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_mac10_underbarrel_west_foregrip")
+
 ATT = {}
 
 ATT.PrintName = "Red Cell Foregrip"
@@ -768,6 +796,36 @@ ATT.SpeedMultShooting = 0.7
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_tr_underbarrel_west_fieldagentforegrip")
+
+ATT = {} -- MAC-10
+
+ATT.PrintName = "Field Agent Grip"
+ATT.CompactName = "FIELD AGENT"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_west.png", "mips smooth")
+ATT.Description = [[Repurposed polymer pistol grip for improved recoil control.
+
+The Field Agent Grip is an Underbarrel attachment available for all NATO related Assault Rifles, Submachine Guns and Light Machine Guns in Call of Duty: Black Ops Cold War. It improves recoil in both horizontal and vertical, primary horizontal but at the cost of a lowered movement speed while shooting. The KSP 45 lacks this grip in favor of the Field Agent Foregrip. The Warsaw Pact equivalent is the Spetsnaz Grip.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
+
+ATT.Category = {"bocw_mac10_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilUpMult = 0.92
+ATT.RecoilSideMult = 0.84
+
+ATT.SpeedMultShooting = 0.7
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_mac10_underbarrel_west_fieldagentgrip")
 --[[
  .oooooo..o ooo        ooooo   .oooooo.       oooooooooooo       .o.        .oooooo..o ooooooooooooo 
 d8P'    `Y8 `88.       .888'  d8P'  `Y8b      `888'     `8      .888.      d8P'    `Y8 8'   888   `8 
