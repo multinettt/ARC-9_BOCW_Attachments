@@ -269,7 +269,7 @@ ATT.SortOrder = 5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_flashhiderpro_west.mdl"
 
-ATT.Category = {"bocw_ksp45_muzzle"}
+ATT.Category = {"bocw_ksp45_muzzle", "bocw_lc10_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
