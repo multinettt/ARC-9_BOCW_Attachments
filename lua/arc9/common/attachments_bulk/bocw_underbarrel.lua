@@ -647,7 +647,7 @@ ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_mac10_underbarrel_west_foregrip")
 
-ATT = {} -- LC10
+ATT = {} -- LC10 - TEC-9 - LAPA
 
 ATT.PrintName = "Foregrip"
 ATT.CompactName = "FOREGRIP"
@@ -660,7 +660,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
 
-ATT.Category = {"bocw_lc10_underbarrel"}
+ATT.Category = {"bocw_lc10_underbarrel", "bocw_tec9_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.22)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
