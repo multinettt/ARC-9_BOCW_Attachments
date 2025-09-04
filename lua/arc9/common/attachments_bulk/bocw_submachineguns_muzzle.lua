@@ -569,7 +569,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -617,7 +617,7 @@ ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_compensatorpro_east545")
 
 ATT = {}
 
-ATT.PrintName = "KGB Eliminator"
+ATT.PrintName = "KGB Eliminator" -- AK-74U
 ATT.CompactName = "KGB ELIM"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro762e.png", "mips smooth")
 ATT.Description = [[Muzzle device reduces flash and vents gases to the sides to reduce muzzle rise.
@@ -645,6 +645,37 @@ ATT.RecoilSideMult = 1.1
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east545")
+
+ATT = {}
+
+ATT.PrintName = "KGB Eliminator" -- PPSH-41
+ATT.CompactName = "ELIMINATOR"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro762e.png", "mips smooth")
+ATT.Description = [[Reduces muzzle flash and vents gases to the sides to reduce muzzle rise.
+
+The KGB Eliminator is a Muzzle attachment available for Warsaw Pact related Assault Rifles, Submachine Guns, Tactical Rifles, and Light Machine Guns within Call of Duty: Black Ops Cold War. It increases control over vertical recoil and increases the concealment of the muzzle flash at the cost of some horizontal recoil alongside reduced shooting movement speed. The NATO equivalent is the SOCOM Eliminator.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
+
+ATT.Category = {"bocw_ppsh41_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.83
+
+ATT.SpeedMultShooting = 0.9
+ATT.RecoilSideMult = 1.05
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ppsh41_muzzle_flashhiderpro")
 
 ATT = {}
 
@@ -701,7 +732,7 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
