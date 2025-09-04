@@ -569,7 +569,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ots9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -771,7 +771,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ots9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -800,7 +800,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ots9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
