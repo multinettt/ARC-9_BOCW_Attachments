@@ -923,6 +923,34 @@ ARC9.LoadAttachment(ATT, "bocw_smg_underbarrel_east_redcellforegrip")
 
 ATT = {}
 
+ATT.PrintName = "Patrol Grip" -- PPSH-41
+ATT.CompactName = "PATROL GRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/ppsh41_patrol.png", "mips smooth")
+ATT.Description = [[Repurposed wood pistol grip for improved sprint speed and sprint recovery time.
+
+The Patrol Grip is an Underbarrel attachment available for all Primary Weapons in Call of Duty: Black Ops Cold War. It increases the speed of sprinting.]]
+
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2.mdl"
+
+ATT.Category = {"bocw_ppsh41_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMultSprint = 1.04
+ATT.SprintToFireTimeMult = 0.97
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ppsh41_underbarrel_patrolgrip")
+
+ATT = {}
+
 ATT.PrintName = "Patrol Grip"
 ATT.CompactName = "PATROL GRIP"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrip_east.png", "mips smooth")
@@ -948,6 +976,37 @@ ATT.SprintToFireTimeMult = 0.97
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_smg_underbarrel_east_patrolgrip")
+
+ATT = {}
+
+ATT.PrintName = "Bruiser Grip" -- PPSH-41
+ATT.CompactName = "BRUISER"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/ppsh41_bruiser.png", "mips smooth")
+ATT.Description = [[Short wooden foregrip for faster weapon melee combat and movement speeds.
+
+The Bruiser Grip is an Underbarrel attachment available for all Primary Weapons in Call of Duty: Black Ops Cold War. It gives a minor increase to movement speeds alongside an increase to melee swing speeds.]]
+
+ATT.SortOrder = 4
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2pro.mdl"
+
+ATT.Category = {"bocw_ppsh41_underbarrel"}
+
+ATT.ModelOffset = Vector(0.1, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMult = 1.03
+ATT.SpeedMultSprint = 1.03
+ATT.SpeedMultShooting = 1.03
+ATT.SpeedMultSighted = 1.03
+ATT.BashSpeedMult = 1.4
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ppsh41_underbarrel_bruisergrip")
 
 ATT = {} -- AK-74U - OTS 9 - UGR
 
