@@ -21,7 +21,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_compensator_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle", "bocw_tec9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -49,7 +49,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_flashhider_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_mp5_muzzle", "bocw_milano821_muzzle", "bocw_tec9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -63,6 +63,44 @@ ATT.RangeMaxMult = 1.18
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhider_west9")
+
+ATT = {}
+
+ATT.PrintName = "Burst Fire Repeater" -- TEC-9
+ATT.CompactName = "BURST FIRE"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensatorpro556c.png", "mips smooth")
+ATT.Description = [[Internal barrel and receiver adjustments conver the weapon's fire type to three round burst-fire.
+
+The Burst Fire Repeater is a Muzzle Attachment available for the TEC-9 and UGR Submachine Guns in Call of Duty: Black Ops Cold War. It converts the native fire type of the TEC-9 from Semi-Automatic to a three round burst-fire while giving a minor boost in fire rate and recoil control while lowering the effective damage range whilst the UGR is converted from fully auto into a three round burst-fire at the cost of some fire rate and worsened effective damage range.]]
+
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_compensatorpro_china.mdl"
+
+ATT.Category = {"bocw_tec9_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_4"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.FiremodesOverride = {
+    {
+        Mode = 3,
+    },
+}
+
+ATT.RPMMult = 1.17
+ATT.RecoilSideMult = 0.9
+
+ATT.RangeMaxMult = 0.67
+ATT.RangeMinMult = 0.67
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_tec9_muzzle_burstfirerepeater")
 
 ATT = {}
 
@@ -146,7 +184,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_compensatorpro_west.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45", "bocw_mp5_muzzle", "bocw_milano821_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_west9", "bocw_smg_muzzle_west45", "bocw_mp5_muzzle", "bocw_milano821_muzzle", "bocw_tec9_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -269,7 +307,7 @@ ATT.SortOrder = 5
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_9_flashhiderpro_west.mdl"
 
-ATT.Category = {"bocw_ksp45_muzzle", "bocw_lc10_muzzle"}
+ATT.Category = {"bocw_ksp45_muzzle", "bocw_lc10_muzzle", "bocw_tec9_muzzle", "bocw_lapa_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
