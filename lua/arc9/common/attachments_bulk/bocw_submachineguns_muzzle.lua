@@ -69,7 +69,7 @@ ATT = {}
 ATT.PrintName = "Burst Fire Repeater" -- TEC-9
 ATT.CompactName = "BURST FIRE"
 ATT.Icon = Material("entities/bocw_atts/muzzles/ar_compensatorpro556c.png", "mips smooth")
-ATT.Description = [[Internal barrel and receiver adjustments conver the weapon's fire type to three round burst-fire.
+ATT.Description = [[Internal barrel and receiver adjustments convert the weapon's fire type to three round burst-fire.
 
 The Burst Fire Repeater is a Muzzle Attachment available for the TEC-9 and UGR Submachine Guns in Call of Duty: Black Ops Cold War. It converts the native fire type of the TEC-9 from Semi-Automatic to a three round burst-fire while giving a minor boost in fire rate and recoil control while lowering the effective damage range whilst the UGR is converted from fully auto into a three round burst-fire at the cost of some fire rate and worsened effective damage range.]]
 
@@ -607,9 +607,9 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ots9_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ots9_muzzle", "bocw_ugr_muzzle"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(-0.3, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -770,9 +770,9 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
-ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle"}
+ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ugr_muzzle"}
 
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(-0.54, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -881,3 +881,135 @@ ATT.RecoilSideMult = 1.15
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_submachineguns_muzzle_flashhiderpro_east9")
+--[[
+oooooooooooo       .o.        .oooooo..o ooooooooooooo      oooooooo         .ooo       .ooo   
+`888'     `8      .888.      d8P'    `Y8 8'   888   `8     dP"""""""       .88'       .88'     
+ 888             .8"888.     Y88bo.           888         d88888b.        d88'       d88'      
+ 888oooo8       .8' `888.     `"Y8888o.       888             `Y88b      d888P"Ybo. d888P"Ybo. 
+ 888    "      .88ooo8888.        `"Y88b      888               ]88      Y88[   ]88 Y88[   ]88 
+ 888       o  .8'     `888.  oo     .d8P      888         o.   .88P  .o. `Y88   88P `Y88   88P 
+o888ooooood8 o88o     o8888o 8""88888P'      o888o        `8bd88P'   Y8P  `88bod8'   `88bod8'  
+]]
+ATT = {}
+
+ATT.PrintName = "Muzzle Brake 5.66"
+ATT.CompactName = "MZLBRK 566"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensator762e.png", "mips smooth")
+ATT.Description = [[Redirects gases upwards and to the sides to reduce muzzle rise.
+
+The Muzzle Brake returns in Call of Duty: Black Ops Cold War as a Muzzle attachment available for Assault Rifles, Submachine Guns, Tactical Rifles, Light Machine Guns, and Pistols. It increases control over vertical recoil.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensator_east.mdl"
+
+ATT.Category = {"bocw_ugr_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 1
+
+ATT.MuzzleParticleOverride = "muzzleflash_6"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ugr_muzzle_compensator1")
+
+ATT = {}
+
+ATT.PrintName = "Flash Guard 5.66"
+ATT.CompactName = "FLSGRD 566"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhider762e.png", "mips smooth")
+ATT.Description = [[Flash guard designed for 5.66mm flechette rounds to reduce muzzle flash.
+
+The Flash Guard returns in Call of Duty: Black Ops Cold War as a Muzzle attachment set available for all Primary Weapons and handguns, excluding the sniper rifles and shotguns. For sniper rifles, they have the Flash Hider, and shotguns can use the Flash Cone. These two attachments are identical to the Flash Guard.]]
+
+ATT.SortOrder = 2
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhider_east.mdl"
+
+ATT.Category = {"bocw_ugr_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ugr_muzzle_flashhider1")
+
+ATT = {}
+
+ATT.PrintName = "Burst Fire Repeater" -- UGR
+ATT.CompactName = "BURST FIRE"
+ATT.Icon = Material("entities/bocw_atts/muzzles/lmg_compensatorpro762e.png", "mips smooth")
+ATT.Description = [[Internal barrel and receiver adjustments convert the weapon's fire type to three round burst-fire.
+
+The Burst Fire Repeater is a Muzzle Attachment available for the TEC-9 and UGR Submachine Guns in Call of Duty: Black Ops Cold War. It converts the native fire type of the TEC-9 from Semi-Automatic to a three round burst-fire while giving a minor boost in fire rate and recoil control while lowering the effective damage range whilst the UGR is converted from fully auto into a three round burst-fire at the cost of some fire rate and worsened effective damage range.]]
+
+ATT.SortOrder = 4
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_545_compensatorpro_east.mdl"
+
+ATT.Category = {"bocw_ugr_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_4"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.FiremodesOverride = {
+    {
+        Mode = 3,
+    },
+}
+
+ATT.RPMMult = 1.17
+ATT.RecoilSideMult = 0.9
+
+ATT.RangeMaxMult = 0.67
+ATT.RangeMinMult = 0.67
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ugr_muzzle_burstfirerepeater")
+
+ATT = {}
+
+ATT.PrintName = "KGB Eliminator" -- UGR
+ATT.CompactName = "ELIMINATOR"
+ATT.Icon = Material("entities/bocw_atts/muzzles/ar_flashhiderpro762e.png", "mips smooth")
+ATT.Description = [[Muzzle device reduces flash and vents gases to the sides to reduce muzzle rise.
+
+The KGB Eliminator is a Muzzle attachment available for Warsaw Pact related Assault Rifles, Submachine Guns, Tactical Rifles, and Light Machine Guns within Call of Duty: Black Ops Cold War. It increases control over vertical recoil and increases the concealment of the muzzle flash at the cost of some horizontal recoil alongside reduced shooting movement speed. The NATO equivalent is the SOCOM Eliminator.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_flashhiderpro_east.mdl"
+
+ATT.Category = {"bocw_ugr_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.RecoilUpMult = 0.83
+
+ATT.SpeedMultShooting = 0.9
+ATT.RecoilSideMult = 1.1
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_ugr_muzzle_flashhiderpro")
