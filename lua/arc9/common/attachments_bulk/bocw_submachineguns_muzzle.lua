@@ -609,7 +609,7 @@ ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressor_east.mdl"
 
 ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ots9_muzzle", "bocw_ugr_muzzle"}
 
-ATT.ModelOffset = Vector(-0.3, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -772,7 +772,7 @@ ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_762_suppressorpro_east.mdl"
 
 ATT.Category = {"bocw_smg_muzzle_east9", "bocw_ppsh41_muzzle", "bocw_ugr_muzzle"}
 
-ATT.ModelOffset = Vector(-0.54, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -936,6 +936,7 @@ ATT.Category = {"bocw_ugr_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 0.85
 
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
 ATT.MuzzleParticleOverride_Priority = 10
@@ -1000,6 +1001,7 @@ ATT.Category = {"bocw_ugr_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = 0.8
 
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
 ATT.MuzzleParticleOverride_Priority = 10
