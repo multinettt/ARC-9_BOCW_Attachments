@@ -342,60 +342,6 @@ ARC9.LoadAttachment(ATT, "bocw_optic_nochsovathermal")
 
 ATT = {}
 
-ATT.PrintName = "Unertl USMC Sniper Scope 10x"
-ATT.CompactName = "UNERTL 10x"
-ATT.Icon = Material("entities/bocw_atts/optics/pellington.png", "mips smooth")
-ATT.Description = [[Scope taken off the Pellington 703.]]
-ATT.SortOrder = 8
-
-ATT.Model = "models/weapons/arc9/atts/pellington_scope.mdl"
-
-ATT.Category = {"optic_picatinny", "bocw_optic"}
-
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 8, -1.02),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
-        ViewModelFOV = 40
-    },
-    -- {
-    --     Pos = Vector(0, 7.5, -3.237175),
-    --     Ang = Angle(0, 0, 0),
-    --     Magnification = 1.15,
-    --     Disassociate = true
-    -- }
-}
-
-ATT.RTScopeFOVMax = 4
-ATT.RTScopeFOVMin = 8
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 8
-ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_pellington.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.6
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
-
-ATT.ScopeScreenRatio = 0.7
-
-ATT.ModelOffset = Vector(0, 0, -0.11)
-
---ATT.SwayAdd = 0.075
---ATT.FreeAimRadiusMultSights = 0.1
---ATT.AimDownSightsTimeAdd = 0
---ATT.SprintToFireTimeAdd = 0.08
-
-ATT.MenuCategory = "ARC9 - BOCW Attachments"
-
-ARC9.LoadAttachment(ATT, "bocw_optic_pellingtonscope")
-
-ATT = {}
-
 ATT.PrintName = "Royal & Kross 4x"
 ATT.CompactName = "RO&KR 4x"
 ATT.Icon = Material("entities/bocw_atts/optics/royalkross4x.png", "mips smooth")
