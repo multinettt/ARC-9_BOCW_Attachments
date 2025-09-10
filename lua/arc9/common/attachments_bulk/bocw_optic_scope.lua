@@ -195,7 +195,7 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -0.8),
+        Pos = Vector(0, 5.75, -0.776),
         Ang = Angle(0, 0, 0),
         Magnification = 3,
         ViewModelFOV = 75
@@ -217,7 +217,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 4
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_hangmanrf.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.5
+ATT.RTScopeReticleScale = 1.2
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
 
@@ -244,16 +244,15 @@ ATT.RTScopeDrawFunc = function(swep, rtsize)
     local top = ""
 
     if tr.HitSky then
-        top = "- - - -"
+        top = "-    -    -    -"
     else
-        top = tostring(math.ceil(tr.Fraction * d * ARC9.HUToM)) .. "m"
+        top = tostring(math.ceil(tr.Fraction * d * ARC9.HUToM))
     end
 
     surface.SetTextColor(col)
     surface.SetFont("CloseCaption_Bold")
-    surface.SetTextPos((w - surface.GetTextSize(top)) / 2, h / 3.05 - (ss * 64))
+    surface.SetTextPos((w - surface.GetTextSize(top)) / 2, h / 2.6 - (ss * 64))
     surface.DrawText(top)
-
 end
 
 end
