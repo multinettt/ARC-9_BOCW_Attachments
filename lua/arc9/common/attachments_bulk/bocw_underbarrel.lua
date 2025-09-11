@@ -48,7 +48,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, 0.14)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -77,7 +77,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.02)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -104,7 +104,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_smg_underbarrel_west"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_smg_underbarrel_west", "bocw_sn_underbarrel"}
 
 ATT.ModelOffset = Vector(0.1, 0, -0.0592) -- me when nernst eşitliği
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -1249,3 +1249,199 @@ ATT.SpeedMultSighted = 0.94
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_ak74u_underbarrel_east_spetsnazspeedgrip")
+--[[
+ .oooooo..o ooooo      ooo    oooooo   oooooo     oooo oooooooooooo  .oooooo..o ooooooooooooo 
+d8P'    `Y8 `888b.     `8'     `888.    `888.     .8'  `888'     `8 d8P'    `Y8 8'   888   `8 
+Y88bo.       8 `88b.    8       `888.   .8888.   .8'    888         Y88bo.           888      
+ `"Y8888o.   8   `88b.  8        `888  .8'`888. .8'     888oooo8     `"Y8888o.       888      
+     `"Y88b  8     `88b.8         `888.8'  `888.8'      888    "         `"Y88b      888      
+oo     .d8P  8       `888          `888'    `888'       888       o oo     .d8P      888      
+8""88888P'  o8o        `8           `8'      `8'       o888ooooood8 8""88888P'      o888o     
+]]
+ATT = {} -- PELINGTON 703 - LW3 TUNDRA
+
+ATT.PrintName = "Front Grip"
+ATT.CompactName = "FRONT GRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrip_west.png", "mips smooth")
+ATT.Description = [[Bipod and standard polymer foregrip for improved recoil control.
+
+The Front Grip is an Underbarrel attachment available for all Tactical Rifles and Sniper Rifles alongside the KSP 45 Submachine Gun in Call of Duty: Black Ops Cold War. It improves horizontal and vertical recoil equally for Sniper Rifles and just horizontal for Tactical Rifles and the KSP 45.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
+
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.BipodOverride = true
+
+ATT.RecoilUpMult = 0.7
+ATT.RecoilSideMult = 0.7
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_sniper_underbarrel_frontgrip")
+
+ATT = {} -- M82
+
+ATT.PrintName = "Front Grip"
+ATT.CompactName = "FRONT GRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrip_west.png", "mips smooth")
+ATT.Description = [[Bipod and standard polymer foregrip for improved recoil control.
+
+The Front Grip is an Underbarrel attachment available for all Tactical Rifles and Sniper Rifles alongside the KSP 45 Submachine Gun in Call of Duty: Black Ops Cold War. It improves horizontal and vertical recoil equally for Sniper Rifles and just horizontal for Tactical Rifles and the KSP 45.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
+
+ATT.Category = {"bocw_m82_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.BipodOverride = true
+
+ATT.RecoilUpMult = 0.9
+ATT.RecoilSideMult = 0.9
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_frontgrip")
+
+ATT = {}
+
+ATT.PrintName = "Bipod" -- PELINGTON 703 - LW3 TUNDRA
+ATT.CompactName = "BIPOD"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_west.png", "mips smooth")
+ATT.Description = [[Bipod and repurposed polymer pistol grip for improved recoil control.
+
+The Bipod is an Underbarrel attachment available for all Sniper Rifles. It improves recoil in both horizontal and vertical, primary horizontal but at the cost of a lowered movement speed while sprinting. The Sniper Rifle version of the Field Agent Grip and Spetsnaz Grip.]]
+
+ATT.SortOrder = 4
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
+
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.BipodOverride = true
+
+ATT.RecoilUpMult = 0.5
+ATT.RecoilSideMult = 0.5
+
+ATT.SpeedMultSprint = 0.95
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_sniper_underbarrel_bipod")
+
+ATT = {}
+
+ATT.PrintName = "Bipod" -- M82
+ATT.CompactName = "BIPOD"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_west.png", "mips smooth")
+ATT.Description = [[Bipod and repurposed polymer pistol grip for improved recoil control.
+
+The Bipod is an Underbarrel attachment available for all Sniper Rifles. It improves recoil in both horizontal and vertical, primary horizontal but at the cost of a lowered movement speed while sprinting. The Sniper Rifle version of the Field Agent Grip and Spetsnaz Grip.]]
+
+ATT.SortOrder = 4
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
+
+ATT.Category = {"bocw_m82_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.BipodOverride = true
+
+ATT.RecoilUpMult = 0.8
+ATT.RecoilSideMult = 0.8
+
+ATT.SpeedMultSprint = 0.95
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_bipod")
+
+ATT = {}
+
+ATT.PrintName = "SFOD Speedgrip" -- PELINGTON 703 - LW3 TUNDRA
+ATT.CompactName = "SFOD SPEED"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_west.png", "mips smooth")
+ATT.Description = [[Repurposed polymer pistol grip for improved sprint speed and recoil control.
+
+The SFOD Speedgrip is an Underbarrel attachment available for all NATO related Primary weapons, except the Swiss K31. It improves horizontal recoil and movement speed while sprinting but at the cost of a lowered general movement speeds. There are two Warsaw Pact equivalents in the Spetsnaz Speedgrip and VDV Speedgrip.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1pro.mdl"
+
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMultSprint = 1.05
+ATT.RecoilSideMult = 0.75
+
+ATT.SpeedMult = 0.94
+ATT.SpeedMultShooting = 0.94
+ATT.SpeedMultSighted = 0.94
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_sniper_underbarrel_sfodspeedgrip")
+
+ATT = {}
+
+ATT.PrintName = "SFOD Speedgrip" -- M82
+ATT.CompactName = "SFOD SPEED"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_west.png", "mips smooth")
+ATT.Description = [[Repurposed polymer pistol grip for improved sprint speed and recoil control.
+
+The SFOD Speedgrip is an Underbarrel attachment available for all NATO related Primary weapons, except the Swiss K31. It improves horizontal recoil and movement speed while sprinting but at the cost of a lowered general movement speeds. There are two Warsaw Pact equivalents in the Spetsnaz Speedgrip and VDV Speedgrip.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1pro.mdl"
+
+ATT.Category = {"bocw_m82_underbarrel"}
+
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMultSprint = 1.05
+ATT.RecoilSideMult = 0.85
+
+ATT.SpeedMult = 0.94
+ATT.SpeedMultShooting = 0.94
+ATT.SpeedMultSighted = 0.94
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_sfodspeedgrip")
