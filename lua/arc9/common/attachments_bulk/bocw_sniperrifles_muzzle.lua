@@ -65,6 +65,35 @@ ARC9.LoadAttachment(ATT, "bocw_m82_muzzle_soundmoderator")
 
 ATT = {}
 
+ATT.PrintName = "Sound Moderator" -- ZRG 20MM
+ATT.CompactName = "MODERATOR"
+ATT.Icon = Material("entities/bocw_atts/muzzles/sniper_suppressor1.png", "mips smooth")
+ATT.Description = [[Reduces firing acoustics and eliminates flash to improve position concealment.
+
+The Sound Moderator is a Muzzle attachment available for all Sniper Rifles in Call of Duty: Black Ops Cold War. It eliminates muzzle flash at the cost of a slower bullet velocity. Whilst equipped in Zombies, the reduced bullet velocity is kept but the muzzle flash elimination is replaced for an increased drop rate of equipment, such as Lethals, Tacticals and Body Armor.]]
+
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/atts/bocw_m82_muzzle_suppressor1.mdl"
+
+ATT.Category = {"bocw_zrg20mm_muzzle"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 1000
+ATT.MuzzleDevice = true
+ATT.Silencer = true
+
+ATT.PhysBulletMuzzleVelocityMult = 0.85
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_zrg20mm_muzzle_soundmoderator")
+
+ATT = {}
+
 ATT.PrintName = "Sound Moderator"
 ATT.CompactName = "MODERATOR"
 ATT.Icon = Material("entities/bocw_atts/muzzles/sniper_suppressor1.png", "mips smooth")
@@ -76,7 +105,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_muzzle_556_suppressor_west.mdl"
 
-ATT.Category = {"bocw_pelington703_muzzle", "bocw_lw3tundra_muzzle", "bocw_zrg20mm_muzzle", "bocw_swissk31_muzzle"}
+ATT.Category = {"bocw_pelington703_muzzle", "bocw_lw3tundra_muzzle", "bocw_swissk31_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -169,7 +198,7 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_sniper_muzzle_suppressorpro.mdl"
 
-ATT.Category = {"bocw_pelington703_muzzle", "bocw_lw3tundra_muzzle", "bocw_m82_muzzle"}
+ATT.Category = {"bocw_pelington703_muzzle", "bocw_lw3tundra_muzzle", "bocw_m82_muzzle", "bocw_swissk31_muzzle"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
