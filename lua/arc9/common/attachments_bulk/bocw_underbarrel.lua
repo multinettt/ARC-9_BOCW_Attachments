@@ -1258,7 +1258,7 @@ Y88bo.       8 `88b.    8       `888.   .8888.   .8'    888         Y88bo.      
 oo     .d8P  8       `888          `888'    `888'       888       o oo     .d8P      888      
 8""88888P'  o8o        `8           `8'      `8'       o888ooooood8 8""88888P'      o888o     
 ]]
-ATT = {} -- PELINGTON 703 - LW3 TUNDRA
+ATT = {} -- PELINGTON 703 - LW3 TUNDRA - ZRG 20MM
 
 ATT.PrintName = "Front Grip"
 ATT.CompactName = "FRONT GRIP"
@@ -1271,7 +1271,7 @@ ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
 
-ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel", "bocw_zrg20mm_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.22)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -1320,7 +1320,7 @@ ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_frontgrip")
 
 ATT = {}
 
-ATT.PrintName = "Bipod" -- PELINGTON 703 - LW3 TUNDRA
+ATT.PrintName = "Bipod" -- PELINGTON 703 - LW3 TUNDRA - ZRG 20MM
 ATT.CompactName = "BIPOD"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_west.png", "mips smooth")
 ATT.Description = [[Bipod and repurposed polymer pistol grip for improved recoil control.
@@ -1331,7 +1331,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
 
-ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel", "bocw_zrg20mm_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, -0.22)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -1384,7 +1384,7 @@ ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_bipod")
 
 ATT = {}
 
-ATT.PrintName = "SFOD Speedgrip" -- PELINGTON 703 - LW3 TUNDRA
+ATT.PrintName = "SFOD Speedgrip" -- PELINGTON 703 - LW3 TUNDRA - ZRG 20MM
 ATT.CompactName = "SFOD SPEED"
 ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_west.png", "mips smooth")
 ATT.Description = [[Repurposed polymer pistol grip for improved sprint speed and recoil control.
@@ -1395,7 +1395,7 @@ ATT.SortOrder = 6
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1pro.mdl"
 
-ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel"}
+ATT.Category = {"bocw_pelington703_underbarrel", "bocw_lw3tundra_underbarrel", "bocw_zrg20mm_underbarrel"}
 
 ATT.ModelOffset = Vector(0, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
