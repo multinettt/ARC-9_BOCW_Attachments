@@ -148,7 +148,7 @@ ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 1000
 ATT.HoloSightColor = Color(255, 0, 0)
 
-ATT.ModelOffset = Vector(-0.72, 0, 0.01)
+ATT.ModelOffset = Vector(-0.9, 0, 0.01)
 
 --ATT.SwayAdd = 0.01
 --ATT.FreeAimRadiusMultSights = 0.25
