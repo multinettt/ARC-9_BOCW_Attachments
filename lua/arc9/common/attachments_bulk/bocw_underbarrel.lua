@@ -48,7 +48,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel", "bocw_lmg_underbarrel_west"}
 
 ATT.ModelOffset = Vector(0, 0, 0.14)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -77,7 +77,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_sn_underbarrel", "bocw_lmg_underbarrel_west"}
 
 ATT.ModelOffset = Vector(0, 0, -0.02)
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -104,7 +104,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip1pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_smg_underbarrel_west", "bocw_sn_underbarrel"}
+ATT.Category = {"bocw_underbarrel_west", "bocw_tr_underbarrel_west", "bocw_smg_underbarrel_west", "bocw_sn_underbarrel", "bocw_lmg_underbarrel_west"}
 
 ATT.ModelOffset = Vector(0.1, 0, -0.0592) -- me when nernst eşitliği
 ATT.ModelAngleOffset = Angle(0.6, 0, 0)
@@ -232,7 +232,7 @@ ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2.mdl"
 
-ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east", "bocw_lmg_underbarrel_east"}
 
 ATT.ModelOffset = Vector(0, 0, 0.14)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -261,7 +261,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2.mdl"
 
-ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east", "bocw_lmg_underbarrel_east"}
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -288,7 +288,7 @@ ATT.SortOrder = 4
 
 ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_speedgrip2pro.mdl"
 
-ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east", "bocw_smg_underbarrel_east"}
+ATT.Category = {"bocw_underbarrel_east", "bocw_tr_underbarrel_east", "bocw_smg_underbarrel_east", "bocw_lmg_underbarrel_east"}
 
 ATT.ModelOffset = Vector(0, 0, 0.14)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
@@ -1445,3 +1445,197 @@ ATT.SpeedMultSighted = 0.94
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
 ARC9.LoadAttachment(ATT, "bocw_m82_underbarrel_sfodspeedgrip")
+--[[
+ooooo        ooo        ooooo   .oooooo.       oooooo   oooooo     oooo oooooooooooo  .oooooo..o ooooooooooooo 
+`888'        `88.       .888'  d8P'  `Y8b       `888.    `888.     .8'  `888'     `8 d8P'    `Y8 8'   888   `8 
+ 888          888b     d'888  888                `888.   .8888.   .8'    888         Y88bo.           888      
+ 888          8 Y88. .P  888  888                 `888  .8'`888. .8'     888oooo8     `"Y8888o.       888      
+ 888          8  `888'   888  888     ooooo        `888.8'  `888.8'      888    "         `"Y88b      888      
+ 888       o  8    Y     888  `88.    .88'          `888'    `888'       888       o oo     .d8P      888      
+o888ooooood8 o8o        o888o  `Y8bood8P'            `8'      `8'       o888ooooood8 8""88888P'      o888o     
+]]
+ATT = {}
+
+ATT.PrintName = "Foregrip"
+ATT.CompactName = "FOREGRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrip_west.png", "mips smooth")
+ATT.Description = [[Standard polymer foregrip for improved recoil control.
+
+The Grip returns in Call of Duty: Black Ops Cold War as the Foregrip and it is an Underbarrel attachment available for Assault Rifles, Light Machine Guns and Submachine Guns. It increases control over horizontal recoil. For the MAC-10, it also helps with controlling vertical recoil. The KSP 45 lacks the Foregrip in favor of the Front Grip.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_west"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilSideMult = 0.8
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_foregrip_west")
+
+ATT = {}
+
+ATT.PrintName = "Field Agent Grip"
+ATT.CompactName = "FIELD AGENT"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_west.png", "mips smooth")
+ATT.Description = [[Repurposed polymer pistol grip for improved recoil control.
+
+The Field Agent Grip is an Underbarrel attachment available for all NATO related Assault Rifles, Submachine Guns and Light Machine Guns in Call of Duty: Black Ops Cold War. It improves recoil in both horizontal and vertical, primary horizontal but at the cost of a lowered movement speed while shooting. The KSP 45 lacks this grip in favor of the Field Agent Foregrip. The Warsaw Pact equivalent is the Spetsnaz Grip.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip1pro.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_west"}
+
+ATT.ModelOffset = Vector(0, 0, -0.22)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilUpMult = 0.92
+ATT.RecoilSideMult = 0.7
+
+ATT.SpeedMultShooting = 0.91
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_fieldagentgrip")
+
+ATT = {}
+
+ATT.PrintName = "SFOD Speedgrip"
+ATT.CompactName = "SFOD SPEED"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_west.png", "mips smooth")
+ATT.Description = [[Repurposed polymer pistol grip for improved sprint speed and recoil control.
+
+The SFOD Speedgrip is an Underbarrel attachment available for all NATO related Primary weapons, except the Swiss K31. It improves horizontal recoil and movement speed while sprinting but at the cost of a lowered general movement speeds. There are two Warsaw Pact equivalents in the Spetsnaz Speedgrip and VDV Speedgrip.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip1pro.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_west"}
+
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0.6, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMultSprint = 1.12
+ATT.RecoilSideMult = 0.85
+
+ATT.SpeedMult = 0.96
+ATT.SpeedMultShooting = 0.96
+ATT.SpeedMultSighted = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_sfodspeedgrip")
+--[[
+ooooo        ooo        ooooo   .oooooo.       oooooooooooo       .o.        .oooooo..o ooooooooooooo 
+`888'        `88.       .888'  d8P'  `Y8b      `888'     `8      .888.      d8P'    `Y8 8'   888   `8 
+ 888          888b     d'888  888               888             .8"888.     Y88bo.           888      
+ 888          8 Y88. .P  888  888               888oooo8       .8' `888.     `"Y8888o.       888      
+ 888          8  `888'   888  888     ooooo     888    "      .88ooo8888.        `"Y88b      888      
+ 888       o  8    Y     888  `88.    .88'      888       o  .8'     `888.  oo     .d8P      888      
+o888ooooood8 o8o        o888o  `Y8bood8P'      o888ooooood8 o88o     o8888o 8""88888P'      o888o     
+]]
+ATT = {}
+
+ATT.PrintName = "Foregrip"
+ATT.CompactName = "FOREGRIP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrip_east.png", "mips smooth")
+ATT.Description = [[Standard wooden foregrip for improved recoil control.
+
+The Grip returns in Call of Duty: Black Ops Cold War as the Foregrip and it is an Underbarrel attachment available for Assault Rifles, Light Machine Guns and Submachine Guns. It increases control over horizontal recoil. For the MAC-10, it also helps with controlling vertical recoil. The KSP 45 lacks the Foregrip in favor of the Front Grip.]]
+
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_east"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilSideMult = 0.8
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_foregrip_east")
+
+ATT = {}
+
+ATT.PrintName = "Spetsnaz Grip"
+ATT.CompactName = "SPTSNZ GRP"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/foregrippro_east.png", "mips smooth")
+ATT.Description = [[Repurposed bakelite pistol grip for improved recoil control.
+
+The Spetsnaz Grip is an Underbarrel attachment available for all Warsaw Pact related Primary weapons. It improves recoil in both horizontal and vertical, primary horizontal but at the cost of a lowered movement speed while shooting. The NATO equivalent is the Field Agent Grip.]]
+
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_foregrip2pro.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_east"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.RecoilUpMult = 0.92
+ATT.RecoilSideMult = 0.7
+
+ATT.SpeedMultShooting = 0.91
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_spetsnazgrip")
+
+ATT = {}
+
+ATT.PrintName = "VDV Speedgrip"
+ATT.CompactName = "VDV SPEED"
+ATT.Icon = Material("entities/bocw_atts/underbarrels/mixgrippro_east.png", "mips smooth")
+ATT.Description = [[Ergonomic wooden grip for improved sprint speed and recoil control.
+
+The VDV Speedgrip is an Underbarrel attachment available for Warsaw Pact related Primary weapons. It improves horizontal recoil and movement speed while sprinting but at the cost of a lowered general movement speeds. The NATO equivalent is the SFOD Speedgrip alongside another Warsaw Pact alternative in the Spetsnaz Speedgrip.]]
+
+ATT.SortOrder = 6
+
+ATT.Model = "models/weapons/arc9/atts/bocw_underbarrel_mixgrip2pro.mdl"
+
+ATT.Category = {"bocw_lmg_underbarrel_east"}
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+
+ATT.SpeedMultSprint = 1.12
+ATT.RecoilSideMult = 0.85
+
+ATT.SpeedMult = 0.96
+ATT.SpeedMultShooting = 0.96
+ATT.SpeedMultSighted = 0.96
+
+ATT.MenuCategory = "ARC9 - BOCW Attachments"
+
+ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_mixgrippro")
