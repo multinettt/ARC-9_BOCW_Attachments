@@ -1638,4 +1638,4 @@ ATT.SpeedMultSighted = 0.96
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
-ARC9.LoadAttachment(ATT, "bocw_underbarrel_east_mixgrippro")
+ARC9.LoadAttachment(ATT, "bocw_lmg_underbarrel_vdvspeedgrip")
