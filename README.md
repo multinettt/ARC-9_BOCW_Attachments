@@ -1,11 +1,8 @@
 # ARC9 BOCW Attachments
 
-Here are universal attachments featured in BOCW used for customizing multiple or all weapons. The same optics, muzzles and body(tactical) attachments are used in almost all weapons in game. This repository is dedicated to the Attachments aspect of BOCW.
+Here are universal attachments featured in BOCW used for customizing multiple or all weapons. The same optics, muzzles and tactical attachments are used in almost all weapons in cold war. This addon is dedicated to the "Attachments" aspect of BOCW.
 
-There are two use cases for this pack:
-
-1. You use the cold war weapons and want to have attachments to further customize the weapons.
-2. You don't use the cold war weapons but would like to have access to some of its attachments like scopes.
+I decided to not include this in shared content to not bloat said addon and to aid those who just want the bare minimum for the weapons to function. Customization is limited on my ARC9 weapons without this mod.
 
 # [ARC9 BOCW Attachments on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2990082109)
 
@@ -37,7 +34,7 @@ There are two use cases for this pack:
 - Pellington 703 Scope 10x
 - Ultrazoom Custom 2-20x
 - AN/PVS-4 Thermal 2.3x
-- Noch Sova Thermal 2.3x (PN58) [not usable at the moment]
+- Noch Sova Thermal 2.3x (PN58)
 
 ### Muzzles:
 
