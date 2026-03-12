@@ -2,7 +2,7 @@
 {
 	"$basetexture" "models\weapons\arc9\bocw\bocw_atts\optics\sillixholoscout\decals_c"
 	"$bumpmap" "models\weapons\arc9\bocw\bocw_atts\optics\sillixholoscout\decals_n"
-
+	"$decal" "1"
 	"$translucent" "1"
 
 	"$phong" "1"
