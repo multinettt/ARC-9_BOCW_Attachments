@@ -18,7 +18,7 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0.008, 4.35, -1.286),
+        Pos = Vector(0.008, 4.35, -1.295),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         ViewModelFOV = 65
