@@ -1,4 +1,4 @@
-local ATT = {} --ANPVS:5 AXARM:84 HNGMN:133 NSOVA:217 UNRTL:296 RO&KR:350 SUSAT:400 ULTRAZ:451 VSTCH:497 VLTUR:546
+local ATT = {}
 
 ATT = {}
 
@@ -18,17 +18,17 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4, -1.32),
+        Pos = Vector(0.008, 4.35, -1.286),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
-        ViewModelFOV = 75
+        ViewModelFOV = 65
     },
     {
         Pos = Vector(0, 5, -2.14),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
         Disassociate = true,
-        ViewModelFOV = 75
+        ViewModelFOV = 50
     },
 }
 
@@ -36,13 +36,13 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_visiontech2x.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.8
+ATT.RTScopeReticleScale = 0.35
+ATT.RTScopeNew_ShadowScale = 1.45
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(-0.5, 0, 0.18)
 
@@ -71,7 +71,8 @@ ATT.Sights = {
         Pos = Vector(0, 5, -1.37),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
-        ViewModelFOV = 70
+        ViewModelFOV = 40,
+        Blur = false
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -85,11 +86,15 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 7.7
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_anpvs.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
+
+ATT.RTScopeReticleScale = 0.35
+ATT.RTScopeNew_ShadowScale = 2.6
+
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -120,8 +125,6 @@ ATT.RTScopeFLIRCCCold = {
     ["$pp_colour_mulb"] = 0
 }
 
-ATT.ScopeScreenRatio = 0.7
-
 ATT.ModelOffset = Vector(0, 0, 0.087)
 ATT.Scale = 1
 
@@ -147,10 +150,10 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.32),
+        Pos = Vector(0.005, 5.15, -1.32),
         Ang = Angle(0, 0, 0),
         Magnification = 3,
-        ViewModelFOV = 75
+        ViewModelFOV = 65
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -164,13 +167,13 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_axialarms3x.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.5
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.7
+ATT.RTScopeReticleScale = 0.45
+ATT.RTScopeNew_ShadowScale = 1.35
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
@@ -195,10 +198,10 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.75, -0.776),
+        Pos = Vector(0.015, 5.9, -0.775),
         Ang = Angle(0, 0, 0),
-        Magnification = 3,
-        ViewModelFOV = 75
+        Magnification = 6,
+        ViewModelFOV = 60
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -208,20 +211,16 @@ ATT.Sights = {
     -- }
 }
 
-ATT.RTScopeFOVMax = 4
-ATT.RTScopeFOVMin = 8
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
-
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 4
-ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_hangmanrf.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.7
+ATT.RTScopeMagnification = 1
+ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_hangmanrf.png", "mips smooth")
+
+ATT.RTScopeReticleScale = 0.6
+ATT.RTScopeNew_ShadowScale = 1.7
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 0.4)
 
@@ -251,7 +250,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize)
 
     surface.SetTextColor(col)
     surface.SetFont("CloseCaption_Bold")
-    surface.SetTextPos((w - surface.GetTextSize(top)) / 2, h / 2.6 - (ss * 64))
+    surface.SetTextPos((w - surface.GetTextSize(top)) / 2, h / 2.6 - (ss * 44))
     surface.DrawText(top)
 end
 
@@ -278,10 +277,10 @@ ATT.Category = {"bocw_ak47_opticmount", "bocw_nochsova_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.7, -1.728),
+        Pos = Vector(0, 5.5, -1.728),
         Ang = Angle(0, 0, 0),
-        Magnification = 1,
-        ViewModelFOV = 60
+        Magnification = 2.3,
+        ViewModelFOV = 40
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -295,11 +294,15 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 7.7
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_nochsova.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
+
+ATT.RTScopeReticleScale = 0.4
+ATT.RTScopeNew_ShadowScale = 2.6
+
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+
+ATT.RTScopeNew_ReticleBlackBox = true
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -330,8 +333,6 @@ ATT.RTScopeFLIRCCCold = {
     ["$pp_colour_mulb"] = 0
 }
 
-ATT.ScopeScreenRatio = 0.7
-
 ATT.ModelOffset = Vector(1.5, 1.08, 1.85)
 ATT.Scale = 1
 
@@ -357,10 +358,10 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 3, -1.1),
+        Pos = Vector(0.005, 4, -1.09),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.4,
-        ViewModelFOV = 70
+        Magnification = 4,
+        ViewModelFOV = 45
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -374,13 +375,13 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 6
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_royalkross4x.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.7
+ATT.RTScopeReticleScale = 0.26
+ATT.RTScopeNew_ShadowScale = 2.1
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(-1, 0, -0.04)
 ATT.Scale = 0.84
@@ -406,32 +407,36 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 3.2, -1.875),
+        Pos = Vector(0, 3.9, -1.86),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
-        ViewModelFOV = 75,
+        ViewModelFOV = 65,
     },
     {
         Pos = Vector(0, 4, -2.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
         Disassociate = true,
-        ViewModelFOV = 75,
+        ViewModelFOV = 65,
     },
 }
 
-ATT.RTScopeFOVMax = 4
-ATT.RTScopeFOVMin = 8
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 1
 
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 8
+ATT.RTScopeMagnificationMin = 1
+ATT.RTScopeMagnificationMax = 2
+
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_susatmultizoom.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.5
+
+ATT.RTScopeReticleScale = 0.45
+ATT.RTScopeNew_ShadowScale = 0.8
+
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+
 
 ATT.ScopeScreenRatio = 0.7
 
@@ -459,27 +464,30 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.65),
+        Pos = Vector(0, 6, -1.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        ViewModelFOV = 65,
+        ViewModelFOV = 40,
+        Blur = false
     },
 }
 
-ATT.RTScopeFOVMax = 2
-ATT.RTScopeFOVMin = 20
+ATT.RTScopeMagnificationMin = 2
+ATT.RTScopeMagnificationMax = 20
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 10
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 2
-ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_ultrazoom.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.7
+ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_ultrazoom.png", "mips smooth")
+
+ATT.RTScopeReticleScale = 0.9
+ATT.RTScopeNew_ShadowScale = 1.9
+
+ATT.RTScopeNew_ReticleBlackBox = true
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(-1.3, 0, 0)
 
@@ -492,7 +500,7 @@ ATT = {}
 ATT.PrintName = "Vulture Custom Zoom 1-10x"
 ATT.CompactName = "VLTURE 10x"
 ATT.Icon = Material("entities/bocw_atts/optics/vulturecustom.png", "mips smooth")
-ATT.Description = [[Advance scope of Russian origin zooms between 1.0x and 10x for reliable target acquisition from mid to long range. Press [Increase Zoom] and [Decrease Zoom] to move between 1.0x and 10x.
+ATT.Description = [[Advanced scope of Russian origin zooms between 1.0x and 10x for reliable target acquisition from mid to long range. Press [Increase Zoom] and [Decrease Zoom] to move between 1.0x and 10x.
 
 The Vulture Custom Zoom is a Optic Attachment available in Call of Duty: Black Ops Cold War. It is dual range optic featuring the ability to scroll between any zoom between 1.0x magnification and 10x magnification. It is available for Tactical Rifles, Light Machine Guns, and Sniper Rifles.]]
 
@@ -505,27 +513,30 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 2.5, -1.15),
+        Pos = Vector(0, 3, -1.15),
         Ang = Angle(0, 0, 0),
         Magnification = 1,
-        ViewModelFOV = 65,
+        ViewModelFOV = 40,
+        Blur = false,
     },
 }
 
-ATT.RTScopeFOVMax = 1
-ATT.RTScopeFOVMin = 10
+ATT.RTScopeMagnificationMin = 1
+ATT.RTScopeMagnificationMax = 10
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 10
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_vulturecz.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.7
+ATT.RTScopeReticleScale = 0.65
+ATT.RTScopeNew_ShadowScale = 2
+
+ATT.RTScopeNew_ReticleBlackBox = true
+ATT.RTScopeNew_DisableRTVM = true
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 0.2)
 
