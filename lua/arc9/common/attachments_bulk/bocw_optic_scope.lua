@@ -201,7 +201,8 @@ ATT.Sights = {
         Pos = Vector(0.015, 5.9, -0.775),
         Ang = Angle(0, 0, 0),
         Magnification = 6,
-        ViewModelFOV = 60
+        ViewModelFOV = 60,
+        Blur = false
     },
     -- {
     --     Pos = Vector(0, 7.5, -3.237175),
@@ -277,7 +278,7 @@ ATT.Category = {"bocw_ak47_opticmount", "bocw_nochsova_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -1.728),
+        Pos = Vector(0.01, 5.5, -1.73),
         Ang = Angle(0, 0, 0),
         Magnification = 2.3,
         ViewModelFOV = 40
