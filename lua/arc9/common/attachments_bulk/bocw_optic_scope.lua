@@ -68,18 +68,12 @@ ATT.Category = {"optic_picatinny", "bocw_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.37),
+        Pos = Vector(0, 6, -1.37),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
         ViewModelFOV = 40,
         Blur = false
     },
-    -- {
-    --     Pos = Vector(0, 7.5, -3.237175),
-    --     Ang = Angle(0, 0, 0),
-    --     Magnification = 1.15,
-    --     Disassociate = true
-    -- }
 }
 
 ATT.RTScopeAdjustable = false
